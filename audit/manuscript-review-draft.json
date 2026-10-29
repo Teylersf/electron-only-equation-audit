@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "checked_at_UTC": "2026-10-29T23:27:40.500063+00:00",
+  "review_type": "AI-assisted internal independent draft review; not external human peer review",
+  "status": "core_science_pass_with_two_minor_clarifications_and_known_draft_archive_placeholders",
+  "manuscript": {
+    "path": "paper/manuscript.md",
+    "bytes": 19269,
+    "SHA256": "cda852d541d6b11b32d9fd5bf442cd10a651d5379f4d6f83b4b4366995f70a80"
+  },
+  "PDF": {
+    "path": "paper/latex/main.pdf",
+    "bytes": 349291,
+    "SHA256": "10e01c460f02fd7c2e1937ddc039c1a6a94b59044e200ec10bf834da17993357"
+  },
+  "PDF_pages_visually_inspected": 7,
+  "renders": [
+    {
+      "path": "draft-render/page-1.png",
+      "bytes": 294848,
+      "SHA256": "43c396c9de92265b618ace4efdc867bc6b23007a694472516680084fe9bad2ef"
+    },
+    {
+      "path": "draft-render/page-2.png",
+      "bytes": 244692,
+      "SHA256": "5ec36851d18e84a1b33844561a0f5b7fc71ca6be9b1ca92e3d4f99bb555296a2"
+    },
+    {
+      "path": "draft-render/page-3.png",
+      "bytes": 194515,
+      "SHA256": "ba58f526a0051dd243950e6e97937fd37502f7e228a997a8d4fffd62f87bfdf1"
+    },
+    {
+      "path": "draft-render/page-4.png",
+      "bytes": 231902,
+      "SHA256": "4f1fbf8119503126c11bc17797c310e91e2c314d09a6c05a74617c8a33d8fc39"
+    },
+    {
+      "path": "draft-render/page-5.png",
+      "bytes": 263911,
+      "SHA256": "74cb14264404efb6b6bb45bbc348e097db11fa5ea49c6671a7edcc44674c85b2"
+    },
+    {
+      "path": "draft-render/page-6.png",
+      "bytes": 306907,
+      "SHA256": "373bb655cd7305359637fb48170778a5f8567e000da806585fc8466468890c4a"
+    },
+    {
+      "path": "draft-render/page-7.png",
+      "bytes": 198803,
+      "SHA256": "4a9928eaa3f435e954dab4a68901031f27f045035f7a2319fc27398b277ab5a3"
+    }
+  ],
+  "note": {
+    "path": "audit/manuscript-review-draft.md",
+    "bytes": 3459,
+    "SHA256": "47d122e8918b41834c8d0c0d75b22b3b18ca09166171188645d095fb0a61fc74"
+  },
+  "complete_manuscript_read": true,
+  "numbered_equations_verified": 12,
+  "figures_verified": 2,
+  "references_reviewed": 5,
+  "source_provenance": {
+    "path": "source-provenance.json",
+    "bytes": 10802,
+    "SHA256": "8b4d366d4c1a389c3a2741c264c4fa9ed933631048df71e8091df177d1cbaf88"
+  },
+  "source_concordance": {
+    "path": "SOURCE_CONCORDANCE.md",
+    "bytes": 9531,
+    "SHA256": "bbafa8dd919c4ea4944e6064e54c469c0feabd10799d380bb433a50afe5ef480"
+  },
+  "independent_computational_QA": {
+    "path": "audit/independent-computational-qa.json",
+    "bytes": 4416,
+    "SHA256": "4832b3bac7bb20e350b7bc7f0ef91f2bfdf9dc5323969337ea6ba72d04af0558"
+  },
+  "science_findings": [
+    {
+      "location": "Section 3 paragraph immediately before Eq. (6); draft PDF page 3",
+      "severity": "minor_scope_clarification",
+      "action": "State explicitly: for the two-dimensional periodic Appendix system, partial_z=0. Individual 3D exchange rates contain additional parallel terms; consistent total conservation and the actual 2D witness remain correct."
+    }
+  ],
+  "layout_findings": [
+    {
+      "location": "Draft PDF page 1 contact line",
+      "severity": "minor_cosmetic",
+      "action": "Replace literal middle dot, rendered as an accented glyph, with ASCII semicolon or a supported typeset separator."
+    }
+  ],
+  "known_draft_placeholders": [
+    "Section 6 availability: public repository, immutable computational commit and software DOI pending.",
+    "Reference 5: verified archive identifier and frozen commit pending."
+  ],
+  "positive_checks": [
+    "Full inertial advection and root ledger 21/20,39/20,-3/2,-3/2 correct.",
+    "Strict-subion nonlinear energy witnesses distinguished from finite-Gamma linear controls.",
+    "Main continuity sign isolated only after restoring dimensional pressure coefficient.",
+    "Collision functional excluded; Hermite claim collisionless.",
+    "All retained rates and conditional exponents agree with independent controls.",
+    "KREHM/ERMHD primary credit and legitimate variable/sign conventions retained.",
+    "AM is not mislabeled VOR; supplement claims limited to arXiv v2.",
+    "No source solver, raw diagnostic, plotted numerical result or new plasma-model claim.",
+    "Title and Taylor Kalin author attribution correct.",
+    "All equations, figures, captions, references and page footers legible and unclipped."
+  ],
+  "edits_performed": false,
+  "external_mutations_performed": false,
+  "release_ready": false,
+  "release_readiness_limit": "Draft-specific minor fixes and verified archive identifiers remain; final changed-page and byte-bound verification required."
+}

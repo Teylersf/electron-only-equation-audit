@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "checked_at_UTC": "2026-10-29T23:29:35.680763+00:00",
+  "status": "analytic_delta_passed",
+  "review_type": "Internal independent AI-assisted mathematical review",
+  "manuscript": {
+    "path": "paper/manuscript.md",
+    "bytes": 19658,
+    "SHA256": "5b356fbf87b1d7da1cdb5a200b3e2b7d734d728330532df5709db5d67f1e8a38"
+  },
+  "review_note": {
+    "path": "audit/manuscript-analytic-delta-review.md",
+    "bytes": 2130,
+    "SHA256": "07f26c8f701dcb646c3b646c98d23251a635cc6594eef8212626d6d9e6d69671"
+  },
+  "prior_draft_review": {
+    "path": "audit/manuscript-review-draft.json",
+    "bytes": 4577,
+    "SHA256": "7c68da8b527a79d7a2133cea6700ca8c981c670da3c4c4477d6537c54278675e"
+  },
+  "checks": {
+    "explicit_2D_exchange_scope_correct": true,
+    "ASCII_contact_separator_present": true,
+    "density_bound": "n0*(1+epsilon*N) >= n0*(1-epsilon) > 0 for 0<epsilon<1 and |N|<=1",
+    "full_flux_evolution_homogeneity_degree": 2,
+    "energy_derivative_homogeneity_degree": 3,
+    "exchange": "I_epsilon=-3*epsilon^3/2",
+    "doubled_density_residual": "-3*epsilon^3/2 in the normalized root coefficients",
+    "small_amplitude_witness_preserves_nonzero_residual_for_every_positive_epsilon": true,
+    "full_inertial_advection_retained": true
+  },
+  "unchanged_computational_artifacts": [
+    {
+      "path": "reproduction/run_audit.py",
+      "bytes": 21771,
+      "SHA256": "c2b7d1428b49ffb1980c5a95fdaa39ded28a17a62b0caf4ec01ab47eb48d1567"
+    },
+    {
+      "path": "data/equation-controls.json",
+      "bytes": 71326,
+      "SHA256": "4c491f30f75c9ec104b38f52d60a550b9b995051131af56d895d2989ce2cdd70"
+    },
+    {
+      "path": "figures/energy-and-wave-controls.png",
+      "bytes": 132377,
+      "SHA256": "b85c11a18b2bb7f9dc7489e8a1d05949d526461dc6f0fe054963129d17ef0832"
+    },
+    {
+      "path": "figures/hermite-projection-controls.png",
+      "bytes": 149791,
+      "SHA256": "dd8ce0c15880b167b1f4f19a01aa48b440eae07bab819d90cd27810a2313be50"
+    }
+  ],
+  "PDF_reviewed_for_this_delta": false,
+  "changed_page_PDF_check_still_required": true,
+  "manuscript_or_code_edits_performed": false,
+  "external_mutations_performed": false,
+  "material_concerns": []
+}

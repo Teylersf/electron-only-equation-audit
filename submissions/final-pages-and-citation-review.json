@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "checked_at_UTC": "2026-10-29T23:42:22.116622+00:00",
+  "review_type": "Independent internal AI-assisted final manuscript, citation and all-page visual review; not external human peer review",
+  "all_checks_passed": true,
+  "all_final_pages_visually_passed": true,
+  "manuscript_sha256": "370c10f8d113a1d721d177ab879696af185c4f575b01bd4ec10b84f5e1fee131",
+  "pdf_sha256": "5136ca9679d7fc15c2fed36126861c6cd0b878b9072dbe23947504fa3449217c",
+  "pages": 7,
+  "manuscript": {
+    "path": "paper/manuscript.md",
+    "bytes": 20117,
+    "sha256": "370c10f8d113a1d721d177ab879696af185c4f575b01bd4ec10b84f5e1fee131"
+  },
+  "PDF": {
+    "path": "paper/main.pdf",
+    "bytes": 350755,
+    "sha256": "5136ca9679d7fc15c2fed36126861c6cd0b878b9072dbe23947504fa3449217c"
+  },
+  "LaTeX_PDF": {
+    "path": "paper/latex/main.pdf",
+    "bytes": 350755,
+    "sha256": "5136ca9679d7fc15c2fed36126861c6cd0b878b9072dbe23947504fa3449217c"
+  },
+  "both_PDF_copies_byte_identical": true,
+  "all_pages_checked": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "page_reviews": [
+    {
+      "path": "final-render/page-1.png",
+      "bytes": 294903,
+      "sha256": "21817c2e123cadd27c6b4f76c8108f76c9bf5274a8b745e39265acf1c199c79c",
+      "page": 1,
+      "visually_checked": true,
+      "passed": true
+    },
+    {
+      "path": "final-render/page-2.png",
+      "bytes": 244692,
+      "sha256": "5ec36851d18e84a1b33844561a0f5b7fc71ca6be9b1ca92e3d4f99bb555296a2",
+      "page": 2,
+      "visually_checked": true,
+      "passed": true
+    },
+    {
+      "path": "final-render/page-3.png",
+      "bytes": 223966,
+      "sha256": "999f08768a58ae4c83940b5479a29a6abe9c4a0f6c017510bdfa3a089f66f55a",
+      "page": 3,
+      "visually_checked": true,
+      "passed": true
+    },
+    {
+      "path": "final-render/page-4.png",
+      "bytes": 231902,
+      "sha256": "4f1fbf8119503126c11bc17797c310e91e2c314d09a6c05a74617c8a33d8fc39",
+      "page": 4,
+      "visually_checked": true,
+      "passed": true
+    },
+    {
+      "path": "final-render/page-5.png",
+      "bytes": 263911,
+      "sha256": "74cb14264404efb6b6bb45bbc348e097db11fa5ea49c6671a7edcc44674c85b2",
+      "page": 5,
+      "visually_checked": true,
+      "passed": true
+    },
+    {
+      "path": "final-render/page-6.png",
+      "bytes": 355990,
+      "sha256": "b617fc8e213a4fd3d81ae86d587a7a1bebe3bfc154322c8e03838e6a48b49fa6",
+      "page": 6,
+      "visually_checked": true,
+      "passed": true
+    },
+    {
+      "path": "final-render/page-7.png",
+      "bytes": 205291,
+      "sha256": "8497a9ecce838f74c092b5270ddc7fbaf932cc5758973e2e52444c16388b523a",
+      "page": 7,
+      "visually_checked": true,
+      "passed": true
+    }
+  ],
+  "metadata": {
+    "title": "Equation consistency in electron-only reconnection manuscripts",
+    "author": "Taylor Kalin",
+    "subject": "Consistency checks on arXiv2407.06020v2, its publisher accepted manuscript and the v2 supplement",
+    "passed": true
+  },
+  "complete_final_manuscript_read": true,
+  "scope": {
+    "named_editions": "arXiv2407.06020v2 main+embedded supplement, and authentic publisher CHORUS accepted manuscript main/Appendix",
+    "VOR_not_inspected_explicit": true,
+    "final_journal_supplement_not_inspected_explicit": true,
+    "accepted_manuscript_not_mislabeled_VOR": true,
+    "supplement_claims_limited_to_arxiv_v2": true,
+    "no_actual_solver_diagnostic_or_numerical_curve_failure_claim": true,
+    "primary_models_and_Appendix_reconciliation_credited": true
+  },
+  "mathematical_checks": {
+    "numbered_displays": 12,
+    "all_passed": true,
+    "ledger": "Full generalized-flux inertial advection retained; Udot=21/20, Kedot=39/20, Kidot=Yhalf_dot=-3/2; consistent sum zero and doubled-density sum -3/2.",
+    "normalization": "Dimensional potential in governing equations; coherent rational coefficients in synthetic witness.",
+    "two_dimensional_exchange_scope_explicit": true,
+    "finite_Gamma_linear_vs_strict_subion_energy_scope_correct": true,
+    "Hermite_collisionless_convention_and_counterarguments_correct": true,
+    "valid_rates_conditional_decay_and_critical_balance_scalings_retained": true
+  },
+  "changed_science_confirmation": {
+    "partial_z_zero_qualification_correct_and_visible_page3": true,
+    "amplitude_scaling_positive_density_and_epsilon_cubed_proof_correct_and_visible_page3": true,
+    "small_amplitude_argument_preserves_all_inertial_terms": true,
+    "ASCII_semicolon_contact_clear_page1": true,
+    "no_unreviewed_new_scientific_claim_detected": true
+  },
+  "figure_checks": {
+    "figures": 2,
+    "all_passed": true,
+    "first_figure_page": 4,
+    "second_figure_page": 5,
+    "captions_match_controls": true,
+    "axes_math_legends_and_labels_unclipped": true,
+    "both_explicitly_synthetic_and_not_source_simulations": true
+  },
+  "references": [
+    {
+      "number": 1,
+      "DOI": "10.1103/PhysRevLett.134.155201",
+      "passed": true,
+      "basis": "Preserved primary registry/APS edition metadata; all authors, journal, volume, article/year and inspected-edition qualifications agree."
+    },
+    {
+      "number": 2,
+      "DOI": "10.1063/1.3628639",
+      "passed": true,
+      "basis": "Preserved primary KREHM metadata and inspected equation/section locators. Consistent density sign, pressure coefficient, half-weighted density energy and Hermite signs are credited."
+    },
+    {
+      "number": 3,
+      "DOI": "10.1088/0067-0049/182/1/310",
+      "passed": true,
+      "basis": "Preserved primary AGK metadata and bounded beta/ERMHD section/convention checks. No whole-paper or independent publisher-byte-identity claim."
+    },
+    {
+      "number": 4,
+      "DOI": "10.1017/S0022377824000631",
+      "passed": true,
+      "basis": "Preserved primary GX framework metadata, title, authorship, year, journal and public repository; no target-run identification claimed."
+    },
+    {
+      "number": 5,
+      "DOI": "10.5281/zenodo.23784871",
+      "passed": true,
+      "basis": "Final software citation and availability identifiers match the reported published deposit and independently checked local computational freeze/archive. Anonymous remote metadata/download verification is assigned separately and was not repeated in this review."
+    }
+  ],
+  "all_reference_links_present_and_intact": true,
+  "availability": {
+    "no_draft_archive_placeholders": true,
+    "software_DOI": "10.5281/zenodo.23784871",
+    "computational_commit": "83583b1524778b8bb4e5c78482ae7f4f104856cc",
+    "tested_tree": "7bf82539dd5224ec9328dc94848b2a62dc6b4029",
+    "tree_not_mislabeled_commit": true,
+    "archive_files": 55,
+    "archive_bytes": 393818,
+    "archive_sha256": "d0444c832c21b8a2e60ebd02e576c4ad2077388dfeb9e412590b7049d1e5aabc",
+    "local_archive_and_citation_match": true,
+    "archive_excludes_manuscript": true,
+    "software_DOI_not_claimed_as_manuscript_acceptance": true,
+    "remote_deposit_download_and_registry_proof": "Separate independent verification; no network requests in this final review."
+  },
+  "supporting_receipts": [
+    {
+      "path": "source-provenance.json",
+      "bytes": 10802,
+      "sha256": "8b4d366d4c1a389c3a2741c264c4fa9ed933631048df71e8091df177d1cbaf88"
+    },
+    {
+      "path": "SOURCE_CONCORDANCE.md",
+      "bytes": 9531,
+      "sha256": "bbafa8dd919c4ea4944e6064e54c469c0feabd10799d380bb433a50afe5ef480"
+    },
+    {
+      "path": "audit/independent-computational-qa.json",
+      "bytes": 4416,
+      "sha256": "4832b3bac7bb20e350b7bc7f0ef91f2bfdf9dc5323969337ea6ba72d04af0558"
+    },
+    {
+      "path": "audit/manuscript-review-draft.json",
+      "bytes": 4577,
+      "sha256": "7c68da8b527a79d7a2133cea6700ca8c981c670da3c4c4477d6537c54278675e"
+    },
+    {
+      "path": "audit/manuscript-analytic-delta-review.json",
+      "bytes": 2199,
+      "sha256": "66fb3b86105c59aa99a09a4ebd3e5c9943362db4860a9bba2e6bf2a8e478df77"
+    },
+    {
+      "path": "submissions/computational-freeze-v1.0.0.json",
+      "bytes": 11793,
+      "sha256": "eb84e298be7952a6ff8800cc17ef878d282d578a9538dd47e9fefdccef4c141f"
+    },
+    {
+      "path": "submissions/computational-publication-verification-v1.0.0.json",
+      "bytes": 11915,
+      "sha256": "a2bf2dc433ac1f6619b5c0f017c9c88b30d2f4f17f449168ff853c46505beb8d"
+    }
+  ],
+  "material_concerns": [],
+  "requested_edits": [],
+  "actions": {
+    "manuscript_or_PDF_edited": false,
+    "producer_or_numerical_outputs_edited": false,
+    "network_calls": false,
+    "Git_or_publication_mutations": false
+  }
+}

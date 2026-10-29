@@ -1,0 +1,8 @@
+{
+  "checked_at_utc": "2026-10-29T23:44:31.037200+00:00",
+  "http_status": 200,
+  "study": "electron-only-equation-audit",
+  "response": {
+    "url": "https://publish.fun/api/papers/submit"
+  }
+}

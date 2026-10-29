@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T23:26:37.266689+00:00",
+  "status": "passed",
+  "scope": "Computational-only first commit and local archive; anonymous public retrieval is a separate subsequent check.",
+  "commit": "83583b1524778b8bb4e5c78482ae7f4f104856cc",
+  "byte_verified_staged_tree": "7bf82539dd5224ec9328dc94848b2a62dc6b4029",
+  "tree_is_not_commit": true,
+  "file_count": 55,
+  "author": "Taylor Kalin <teylersf@gmail.com>",
+  "all_staged_blobs_equal_disk": true,
+  "staged_tree_archive_matches_all_blobs": true,
+  "commit_tree_equals_tested_tree": true,
+  "normalization_policy": "Public .gitattributes and local .git/info/attributes use * -text; no pinned file normalized.",
+  "all_24_original_source_review_copies_exact": true,
+  "QA": {
+    "path": "audit/independent-computational-qa.json",
+    "bytes": 4416,
+    "sha256": "4832b3bac7bb20e350b7bc7f0ef91f2bfdf9dc5323969337ea6ba72d04af0558"
+  },
+  "administrative_changes_after_QA": [
+    {
+      "path": "README.md",
+      "QA_sha256": "9d3c5d75f707f7a25eff69d2df6d7e4485a7e3a1d3365409697c87ad56a501f2",
+      "freeze_sha256": "d242701471af71becb5d4788203d4ad1181dd68ec814bcb8987636da143c4960",
+      "purpose": "Administrative public-code/manuscript-in-preparation wording only; no science change."
+    }
+  ],
+  "new_manifest_self_excluded": true,
+  "no_new_scientific_execution_during_freeze": true,
+  "no_manuscript_or_PDF_or_release_tag_created": true,
+  "archive": {
+    "filename": "electron-only-equation-audit-code-v1.0.0.zip",
+    "bytes": 393818,
+    "sha256": "d0444c832c21b8a2e60ebd02e576c4ad2077388dfeb9e412590b7049d1e5aabc",
+    "md5": "ed245136dea9d446645372c7471e3af9",
+    "zip_comment": "83583b1524778b8bb4e5c78482ae7f4f104856cc"
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 83,
+      "sha256": "cecaba36a97bcc5ce6f69247f95dce5f8908716a4843f2873fd17d9ac00678d0"
+    },
+    {
+      "path": "COMPUTATIONAL_METHODS.md",
+      "bytes": 8637,
+      "sha256": "d2b2555850db0be0611ee85b27a6f76402bbcc5650f9ae5d84ac16910331b2ab"
+    },
+    {
+      "path": "LICENSE-CODE",
+      "bytes": 1130,
+      "sha256": "2b55fdac5f492dc9cf93bb2b7ed76f20fec2ed91d4ef2b9f7b166f357f347cc8"
+    },
+    {
+      "path": "LICENSE-MANUSCRIPT",
+      "bytes": 696,
+      "sha256": "84d37ab80c2aeb4909cba541f40cee10dab8fec720bef6227ae57c3f1fd41e75"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2203,
+      "sha256": "d242701471af71becb5d4788203d4ad1181dd68ec814bcb8987636da143c4960"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "bytes": 2078,
+      "sha256": "2e3c9afdca4ff588f40cecf2c8c3bcc57f6918c8eaf5b66c19c3db3a6e6903ca"
+    },
+    {
+      "path": "SOURCE_CONCORDANCE.md",
+      "bytes": 9531,
+      "sha256": "bbafa8dd919c4ea4944e6064e54c469c0feabd10799d380bb433a50afe5ef480"
+    },
+    {
+      "path": "audit/independent-computational-qa.json",
+      "bytes": 4416,
+      "sha256": "4832b3bac7bb20e350b7bc7f0ef91f2bfdf9dc5323969337ea6ba72d04af0558"
+    },
+    {
+      "path": "audit/independent-computational-qa/checks.json",
+      "bytes": 6449,
+      "sha256": "47c7d92ffc0e3e5524284eb87335849cd0d1e1552af19433d2cedf87b8e91627"
+    },
+    {
+      "path": "audit/independent-computational-qa/review.md",
+      "bytes": 3805,
+      "sha256": "920f03d7f7f141c0193547f519f44c98ba3ea8e44cf6ebcea939834fb855dd63"
+    },
+    {
+      "path": "audit/independent-computational-qa/verify_outputs.py",
+      "bytes": 11026,
+      "sha256": "7d3ef3adbd8dab611cf432c815ab8bed50e27df6a29e4fed4c7f4c5209d40dda"
+    },
+    {
+      "path": "audit/independent-derivation-review/copy-and-portability.json",
+      "bytes": 2024,
+      "sha256": "a735871a747627224392ea30ce39f988dfdb7bc13184ac1068557da0f65598bc"
+    },
+    {
+      "path": "audit/independent-derivation-review/derivation-review-provenance-original.json",
+      "bytes": 12322,
+      "sha256": "f40595606eb3742315bb48edf549d3fb237e19d207de86eb8ecf88ddf46af3c1"
+    },
+    {
+      "path": "audit/independent-derivation-review/equation-consistency-checks-original-run.json",
+      "bytes": 8904,
+      "sha256": "732e3165a4fe926a7369b41d334fef8f85d3aa660f4c66542e9bc3564480f5c1"
+    },
+    {
+      "path": "audit/independent-derivation-review/equation-consistency-checks.json",
+      "bytes": 8904,
+      "sha256": "732e3165a4fe926a7369b41d334fef8f85d3aa660f4c66542e9bc3564480f5c1"
+    },
+    {
+      "path": "audit/independent-derivation-review/independent-derivation-review-original.md",
+      "bytes": 13887,
+      "sha256": "0a972ec3b4e9ddab3d87d6c9d7beb934cf7cae91970ac0b79664982f11bc1b24"
+    },
+    {
+      "path": "audit/independent-derivation-review/standalone-stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "audit/independent-derivation-review/standalone-stdout.txt",
+      "bytes": 299,
+      "sha256": "2f39f2691c1dcaa20d51198c6304172910cb561171a69c86de5d22912b59287f"
+    },
+    {
+      "path": "audit/independent-derivation-review/verify_equation_consistency.py",
+      "bytes": 9858,
+      "sha256": "3f39a65b7cf057b56fec8dd7ed01e3be743aa12bd37037f2550606935cd5e8af"
+    },
+    {
+      "path": "audit/primary-reference-review/GX-framework-identification.json",
+      "bytes": 1934,
+      "sha256": "f96c4eee0ad98b4cfa942558fe517ff42f405732b395023dfdf7311c76c0a49e"
+    },
+    {
+      "path": "audit/primary-reference-review/primary-theory-verification.json",
+      "bytes": 9427,
+      "sha256": "3f923688fa65beb439383b8dd28c359c873bee2afc9b991d358756eb1b56fd12"
+    },
+    {
+      "path": "audit/primary-reference-review/primary-theory-verification.md",
+      "bytes": 14235,
+      "sha256": "96844dff1dd5374afaf8f42d0995a2b2daa17d43e7892953383534d1d78fd9cd"
+    },
+    {
+      "path": "audit/source-editions/accepted-manuscript-manual-save-original.json",
+      "bytes": 1247,
+      "sha256": "970f942a80cc50aa10f73504d694a1df34252542341b985a0548d3f4cc805d5c"
+    },
+    {
+      "path": "audit/source-editions/arxiv-equation-environments-original.json",
+      "bytes": 10298,
+      "sha256": "88f3dcf7b5ace33d019445db29174217e9c13233b985ce8fc0cbfc10915a8a8d"
+    },
+    {
+      "path": "audit/source-editions/arxiv-source-v1-inventory-original.json",
+      "bytes": 842,
+      "sha256": "fc3cef9f288708d043b892a2693f6a29f711764de20f3000c93f09f88df12787"
+    },
+    {
+      "path": "audit/source-editions/arxiv-source-v2-inventory-original.json",
+      "bytes": 3950,
+      "sha256": "eb391a28678195acde96c31835b1b958b2952850979ae446b64f7b7e3a0221dc"
+    },
+    {
+      "path": "audit/source-editions/correction-and-deposit-check-original.json",
+      "bytes": 5338,
+      "sha256": "3fab7f4a7153fd469766a69a097ddefcc9453a85d02294a33d8cdbc2e4e33672"
+    },
+    {
+      "path": "audit/source-editions/crossref-metadata-original.json",
+      "bytes": 17764,
+      "sha256": "2aad9f5b75c16391aa0c29e789936840467d02c707ca2026d398d1d22591c110"
+    },
+    {
+      "path": "audit/source-editions/crossref-primary-receipt-original.json",
+      "bytes": 260,
+      "sha256": "788fddc1a673efc31eb56194e173776a9dfb36b38f238c5d8d4996a5e5ff9a66"
+    },
+    {
+      "path": "audit/source-editions/download-receipts/arxiv-abs.html.receipt.json",
+      "bytes": 453,
+      "sha256": "c91fc329854aced5a62bda8dd2838cb2a314b403e0b3ed7d8051f299f95f7139"
+    },
+    {
+      "path": "audit/source-editions/download-receipts/arxiv-v1-source.tar.receipt.json",
+      "bytes": 454,
+      "sha256": "eaa03fdbc509d28a459de00a8d0faaa35206fc7a579fcf4bc408bdd9d09f5b5f"
+    },
+    {
+      "path": "audit/source-editions/download-receipts/arxiv-v1.pdf.receipt.json",
+      "bytes": 445,
+      "sha256": "76e50cf2c6671947054a0c6c89b3367e123bc0f315d8e6a8b24ba66bf2fe2b15"
+    },
+    {
+      "path": "audit/source-editions/download-receipts/arxiv-v2-source.tar.receipt.json",
+      "bytes": 454,
+      "sha256": "fa113c413cb1e0ec24501afd6de6465475f11483414a70cd2157f952e41b653d"
+    },
+    {
+      "path": "audit/source-editions/download-receipts/arxiv-v2.pdf.receipt.json",
+      "bytes": 446,
+      "sha256": "0991d9de693aa152d40dead7b2e9cc246951196babfcc57ae8066719777ab659"
+    },
+    {
+      "path": "audit/source-editions/edition-concordance-before-AM-original.md",
+      "bytes": 6710,
+      "sha256": "0b83d953aa95b410b93a75f1268dad245ebb1e8d0b5631691beb9fd51c3eda22"
+    },
+    {
+      "path": "audit/source-editions/edition-concordance-original.md",
+      "bytes": 9136,
+      "sha256": "58a669ea93e0e4622477c2cff0ea5b6132b3ee4edaa9ffee4aae60c585f87623"
+    },
+    {
+      "path": "audit/source-editions/publisher-access-observation-original.json",
+      "bytes": 1977,
+      "sha256": "8475656aad057d3055be4e9aa00716601f6d8495ae4542c854036a704a554250"
+    },
+    {
+      "path": "audit/source-editions/source-editions-preflight-before-AM-original.json",
+      "bytes": 9346,
+      "sha256": "41179bbc90888498dc5d3c1c0843082ef01e8cf1e36add155c256b16c18ac546"
+    },
+    {
+      "path": "audit/source-editions/source-editions-preflight-original.json",
+      "bytes": 12072,
+      "sha256": "fdc0f1074432d16a33313f4a24be3d67fed3af2f4744a945d119c770087c79aa"
+    },
+    {
+      "path": "audit/source-integration-verification.json",
+      "bytes": 7487,
+      "sha256": "0689ac5c3f6a494e827894ed712fed18ab208df4ec7850e0e36405cd0f63778d"
+    },
+    {
+      "path": "audit/source-record-copy-manifest-before-primary.json",
+      "bytes": 7303,
+      "sha256": "711f2c7deccff0ef65b768dc002b7abedce650c3b700e2ca6b4b602a0344e4fc"
+    },
+    {
+      "path": "audit/source-record-copy-manifest.json",
+      "bytes": 8455,
+      "sha256": "7498541e6dcf50ef8170fa4f5d417d0e0d6db74bb6e48e226bb669fe0f5fd7a1"
+    },
+    {
+      "path": "data/computational-artifact-manifest.json",
+      "bytes": 10489,
+      "sha256": "1bd491104e32200cb1825e82b93d1610600127c8cff388e784c60b181387f530"
+    },
+    {
+      "path": "data/conditional-exponents.csv",
+      "bytes": 251,
+      "sha256": "c99d51a91e7ac20afd04eb5a91d920880d66a0f0d34cef381d24402f40513603"
+    },
+    {
+      "path": "data/equation-controls.json",
+      "bytes": 71326,
+      "sha256": "4c491f30f75c9ec104b38f52d60a550b9b995051131af56d895d2989ce2cdd70"
+    },
+    {
+      "path": "data/linear-symbol-controls.csv",
+      "bytes": 1225,
+      "sha256": "97139a9f2e3ddc57b9a5eed69ea4d8936a4e6c296e2a805c24ece85bd3f82da0"
+    },
+    {
+      "path": "data/periodic-energy-controls.csv",
+      "bytes": 5535,
+      "sha256": "f95f5c4d4225b7991eced6e1a06186fd8d79c65a971e432da3ea4e6c56a19ff7"
+    },
+    {
+      "path": "data/retained-rate-controls.csv",
+      "bytes": 879,
+      "sha256": "9db6f034f0c1322dc844cc8e7625b009b5e3ea7e915b40e890b11ea144f5c142"
+    },
+    {
+      "path": "data/runtime-environments.json",
+      "bytes": 2158,
+      "sha256": "aff0728af16c413c76a31dcdad56385f5bbd03bfbc6aa81400c3f5dc4f040baa"
+    },
+    {
+      "path": "figures/energy-and-wave-controls.png",
+      "bytes": 132377,
+      "sha256": "b85c11a18b2bb7f9dc7489e8a1d05949d526461dc6f0fe054963129d17ef0832"
+    },
+    {
+      "path": "figures/hermite-projection-controls.png",
+      "bytes": 149791,
+      "sha256": "dd8ce0c15880b167b1f4f19a01aa48b440eae07bab819d90cd27810a2313be50"
+    },
+    {
+      "path": "reproduction/run_audit.py",
+      "bytes": 21771,
+      "sha256": "c2b7d1428b49ffb1980c5a95fdaa39ded28a17a62b0caf4ec01ab47eb48d1567"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 32,
+      "sha256": "adc7fa5a4dbaa7335c32c1e7d10cffae5c96f67ba2f5f22c8453c1bc11cf8e0a"
+    },
+    {
+      "path": "source-provenance.json",
+      "bytes": 10802,
+      "sha256": "8b4d366d4c1a389c3a2741c264c4fa9ed933631048df71e8091df177d1cbaf88"
+    }
+  ]
+}

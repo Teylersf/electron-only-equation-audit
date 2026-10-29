@@ -1,0 +1,28 @@
+{
+  "study": "electron-only-equation-audit",
+  "scope": "Offline Publish.fun preparation only; assets are immutable GitHub URLs, no upload or API call.",
+  "final_pin_file_sha256": "a6512066b182997ee0aa0277814aaf3d3229dcadf3114f204daa3bbf32b5b062",
+  "client_sha256": "1b0dea454bd5c7884e545d8324d28306a2831d4e7fefbab7917ac66668c48642",
+  "canonical_manuscript_sha256": "370c10f8d113a1d721d177ab879696af185c4f575b01bd4ec10b84f5e1fee131",
+  "canonical_pdf_sha256": "5136ca9679d7fc15c2fed36126861c6cd0b878b9072dbe23947504fa3449217c",
+  "scientific_code_commit": "83583b1524778b8bb4e5c78482ae7f4f104856cc",
+  "code_doi": "10.5281/zenodo.23784871",
+  "metadata_sha256": "fc9bd265eea1892beff9a31ce9224a58b523694bcd12f68b40bb1898b2306775",
+  "prepared_manuscript_sha256": "a046122a4288767599422647145fa9121a1f81f3b476ee6d3e600f9ecd7712ed",
+  "figure_bindings": [
+    {
+      "canonical_route": "../figures/energy-and-wave-controls.png",
+      "path": "figures/energy-and-wave-controls.png",
+      "sha256": "b85c11a18b2bb7f9dc7489e8a1d05949d526461dc6f0fe054963129d17ef0832",
+      "public_url": "https://raw.githubusercontent.com/Teylersf/electron-only-equation-audit/83583b1524778b8bb4e5c78482ae7f4f104856cc/figures/energy-and-wave-controls.png"
+    },
+    {
+      "canonical_route": "../figures/hermite-projection-controls.png",
+      "path": "figures/hermite-projection-controls.png",
+      "sha256": "dd8ce0c15880b167b1f4f19a01aa48b440eae07bab819d90cd27810a2313be50",
+      "public_url": "https://raw.githubusercontent.com/Teylersf/electron-only-equation-audit/83583b1524778b8bb4e5c78482ae7f4f104856cc/figures/hermite-projection-controls.png"
+    }
+  ],
+  "network_calls": 0,
+  "formal_submission_performed": false
+}

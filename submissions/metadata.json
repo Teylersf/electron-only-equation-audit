@@ -1,0 +1,19 @@
+{
+  "title": "Equation consistency in electron-only reconnection manuscripts",
+  "abstract": "We check the equations in Liu et al.'s arXiv:2407.06020v2, its publisher-hosted accepted manuscript, and the supplement embedded in that arXiv version. The inspected main system has a continuity sign and a dimensional pressure coefficient inconsistent with its stated Appendix rewrite. After restoring the pressure coefficient, the printed continuity sign gives growing rather than oscillatory linear modes. Separately, the supplemental density-energy term lacks the one-half coefficient required by its claimed quadratic invariant. An exact periodic state demonstrates nonconservation of that printed sum while the consistently weighted sum is conserved. Direct Gaussian projection also gives collisionless Hermite streaming and forcing signs opposite to those printed in the supplied hierarchy. These repairs reconcile the displays with the established KREHM equations; they do not introduce a new plasma model. The source's reconnection-rate and conditional coalescence scalings retain their algebraic support. The subscription version of record and final journal supplement were not obtained, and no conclusion about the actual solver or numerical curves follows from these consistency tests.",
+  "author": "Taylor Kalin",
+  "orcid": "0009-0003-9000-9315",
+  "version": "1.0.0",
+  "scientific_code_commit": "83583b1524778b8bb4e5c78482ae7f4f104856cc",
+  "code_doi": "10.5281/zenodo.23784871",
+  "repository": "https://github.com/Teylersf/electron-only-equation-audit",
+  "agentpub_paper_type": "short_communication",
+  "keywords": [
+    "electron-only reconnection",
+    "equation consistency",
+    "KREHM",
+    "free energy",
+    "Hermite expansion",
+    "reproducibility"
+  ]
+}
