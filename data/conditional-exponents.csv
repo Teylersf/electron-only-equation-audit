@@ -1,0 +1,3 @@
+regime,lifetime_R_power_at_fixed_B,decay_ODE_energy_power,energy_time_power,radius_time_power,field_time_power,wavenumber_time_power,critical_balance_length_time_power
+electron_only,2,5/2,-2/3,1/3,-1/3,-1/3,2/3
+constant_rate_MHD,1,2,-1,1/2,-1/2,-1/2,

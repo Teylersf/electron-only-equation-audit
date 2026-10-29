@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "producer_sha256": "c2b7d1428b49ffb1980c5a95fdaa39ded28a17a62b0caf4ec01ab47eb48d1567",
+  "plotting_run": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.11.2",
+    "command": "python reproduction/run_audit.py",
+    "observed_exit_code": 0
+  },
+  "standard_library_run": {
+    "python": "3.13.7",
+    "command": "python reproduction/run_audit.py --no-plots",
+    "observed_exit_code": 0,
+    "stdout": {
+      "status": "all exact controls passed",
+      "counts": {
+        "periodic_energy_states": 60,
+        "nonzero_exchange_states": 36,
+        "zero_exchange_controls": 24,
+        "linear_symbol_states": 24,
+        "Hermite_orthogonality_pairs": 81,
+        "Hermite_drive_projections": 9,
+        "Hermite_neighbor_streaming_pairs": 6,
+        "rate_parameter_states": 8,
+        "conditional_decay_regimes": 2
+      },
+      "figures_generated": false
+    }
+  },
+  "same_five_numerical_files_across_two_runtimes": true,
+  "exact_output_sha256": {
+    "data/equation-controls.json": "4c491f30f75c9ec104b38f52d60a550b9b995051131af56d895d2989ce2cdd70",
+    "data/periodic-energy-controls.csv": "f95f5c4d4225b7991eced6e1a06186fd8d79c65a971e432da3ea4e6c56a19ff7",
+    "data/linear-symbol-controls.csv": "97139a9f2e3ddc57b9a5eed69ea4d8936a4e6c296e2a805c24ece85bd3f82da0",
+    "data/retained-rate-controls.csv": "9db6f034f0c1322dc844cc8e7625b009b5e3ea7e915b40e890b11ea144f5c142",
+    "data/conditional-exponents.csv": "c99d51a91e7ac20afd04eb5a91d920880d66a0f0d34cef381d24402f40513603"
+  },
+  "optimized_execution_rejected_before_output_mutation": true,
+  "figures": {
+    "figures/energy-and-wave-controls.png": "b85c11a18b2bb7f9dc7489e8a1d05949d526461dc6f0fe054963129d17ef0832",
+    "figures/hermite-projection-controls.png": "dd8ce0c15880b167b1f4f19a01aa48b440eae07bab819d90cd27810a2313be50"
+  },
+  "notes": [
+    "Plotting versions are actually observed, not inferred from requirements.",
+    "The exact producer needs no NumPy or SciPy; figures alone use NumPy/Matplotlib.",
+    "No source simulation, source-code execution, VOR download or scientific inference beyond named printed equations."
+  ]
+}

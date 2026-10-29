@@ -1,0 +1,1 @@
+{"status": "pass", "energy_witnesses": 8, "linear_wave_cases": 3, "positive_rate_cases": 8, "Hermite_drive_projection": "-4", "program_SHA256": "3f39a65b7cf057b56fec8dd7ed01e3be743aa12bd37037f2550606935cd5e8af", "receipt_SHA256": "732e3165a4fe926a7369b41d334fef8f85d3aa660f4c66542e9bc3564480f5c1"}

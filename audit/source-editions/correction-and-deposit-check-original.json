@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T22:57:05.098452+00:00",
+  "scope": "Bounded primary metadata, correction and deposit context only. No source or PDF download, browser, scientific verdict or external mutation.",
+  "target": {
+    "DOI": "10.1103/physrevlett.134.155201",
+    "title": "Electron-Only Magnetic Reconnection and Inverse Magnetic-Energy Transfer at Subion Scales",
+    "authors": [
+      {
+        "given": "Zhuo",
+        "family": "Liu"
+      },
+      {
+        "given": "Caio",
+        "family": "Silva"
+      },
+      {
+        "given": "Lucio M.",
+        "family": "Milanese"
+      },
+      {
+        "given": "Muni",
+        "family": "Zhou"
+      },
+      {
+        "given": "Noah R.",
+        "family": "Mandell"
+      },
+      {
+        "given": "Nuno F.",
+        "family": "Loureiro"
+      }
+    ],
+    "journal": "Physical Review Letters",
+    "volume": "134",
+    "issue": "15",
+    "article_number": "155201",
+    "online_date": [
+      2025,
+      4,
+      15
+    ],
+    "issue_date": [
+      2025,
+      4,
+      18
+    ]
+  },
+  "Crossref": {
+    "URL": "https://api.crossref.org/works/10.1103/PhysRevLett.134.155201",
+    "HTTP_status": 200,
+    "checked_at_utc": "2026-10-29T22:56:30.937138+00:00",
+    "bytes": 17764,
+    "SHA256": "2aad9f5b75c16391aa0c29e789936840467d02c707ca2026d398d1d22591c110",
+    "relation": {},
+    "update_to_present": false,
+    "updated_by_present": false,
+    "license_records": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              15
+            ]
+          ],
+          "date-time": "2025-04-15T00:00:00Z",
+          "timestamp": 1744675200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://link.aps.org/licenses/aps-default-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              15
+            ]
+          ],
+          "date-time": "2026-04-15T00:00:00Z",
+          "timestamp": 1776211200000
+        },
+        "content-version": "am",
+        "delay-in-days": 365,
+        "URL": "https://link.aps.org/licenses/aps-default-accepted-manuscript-license"
+      }
+    ],
+    "primary_links": [
+      {
+        "URL": "https://link.aps.org/accepted/10.1103/PhysRevLett.134.155201",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "unspecified"
+      },
+      {
+        "URL": "https://link.aps.org/article/10.1103/PhysRevLett.134.155201",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevLett.134.155201/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "official_publisher_page": {
+    "URL": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.155201",
+    "access_basis": "Official publisher page read through the web tool; no raw response byte hash asserted.",
+    "verified_metadata": "Exact title and six authors; PRL 134, 155201; published 15 April 2025; issue dated 18 April 2025; received 9 July 2024; accepted 14 March 2025.",
+    "locators": "Publisher page title/authors/publication metadata; information panel; supplemental-material heading.",
+    "full_article_text_accessible_in_this_read": false,
+    "access_limit": "The accessible page shows an authorization-required notice for full article content. No credentials or subscription routes were used. A separate reviewer owns any PDF attempt.",
+    "supplemental_material": "An actual Supplemental Material heading is present but marked Subscription Required. No supplementary file listing or contents were retrieved.",
+    "data_code_statement_verified": false
+  },
+  "bounded_search": {
+    "queries": [
+      "\"10.1103/PhysRevLett.134.155201\" erratum correction",
+      "\"Electron-Only Magnetic Reconnection and Inverse Magnetic-Energy Transfer at Subion Scales\" data code github zenodo osf",
+      "\"PhysRevLett.134.155201\" supplemental data availability"
+    ],
+    "target_specific_correction_identified": false,
+    "target_linked_public_data_or_code_deposit_identified": false,
+    "absence_limit": "No target-specific notice or authenticated target-linked deposit was identified in these bounded searches. Empty registry relations and inaccessible full-text headings do not prove that none exists."
+  },
+  "excluded_near_match": {
+    "title": "An analytical model of “Electron-Only” magnetic reconnection rates",
+    "journal": "Communications Physics",
+    "DOI": "10.1038/s42005-025-02034-z",
+    "repository_DOI_seen_in_search": "10.5281/zenodo.14919784",
+    "reason": "Different title and study. Its data/code deposit must not be attributed to the target PRL merely because it cites the target."
+  },
+  "edition_limit": "No final-versus-arXiv equation comparison was performed in this metadata task. The separate full-reading reviewer owns edition identity and source archives."
+}

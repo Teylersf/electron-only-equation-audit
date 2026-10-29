@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "environment": {
+    "python": "3.13.7",
+    "standard_library_only": true
+  },
+  "program_SHA256": "3f39a65b7cf057b56fec8dd7ed01e3be743aa12bd37037f2550606935cd5e8af",
+  "scope": "Original local equation-consistency and positive scaling controls, not a source-simulation, eigenproblem or nonlinear plasma reproduction.",
+  "source_scope": {
+    "arxiv": "2407.06020v2",
+    "supplied_PDF_SHA256": "e482988aa241494c52cc6071317fbd6f3a1c084173f045f2bfc03ba0ade26cd8",
+    "AM_main_PDF_SHA256": "71c9216d20334427fdc84570c72b600c82c7009721f03837787f8d5a74eadd83",
+    "VOR_or_journal_supplement_identity_verified": false
+  },
+  "dimensions": {
+    "A_time_derivative": [
+      "1/2",
+      "1/2",
+      "-2"
+    ],
+    "printed_density_gradient": [
+      "0",
+      "-1",
+      "0"
+    ],
+    "c_Te_over_e_times_density_gradient": [
+      "1/2",
+      "1/2",
+      "-2"
+    ],
+    "printed_four_pi_n_m_over_B_squared": [
+      "0",
+      "-2",
+      "2"
+    ],
+    "usual_eight_pi_n_T_over_B_squared": [
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "two_dimensional_sign_control": {
+    "average_N_times_bracket_A_lapA": "-3/2",
+    "main_2D_continuity_vs_Appendix_signs_opposite": true,
+    "A_sign_reversal_leaves_quadratic_bracket_unchanged": true
+  },
+  "linear_wave_controls": [
+    {
+      "Gamma": "0",
+      "printed_continuity_time_eigenvalue_squared": "9/2",
+      "repaired_continuity_time_eigenvalue_squared": "-9/2",
+      "repaired_wave_frequency_squared": "9/2",
+      "scope": "Pressure coefficient restored first, to isolate the continuity-sign consequence."
+    },
+    {
+      "Gamma": "1/4",
+      "printed_continuity_time_eigenvalue_squared": "27/5",
+      "repaired_continuity_time_eigenvalue_squared": "-27/5",
+      "repaired_wave_frequency_squared": "27/5",
+      "scope": "Pressure coefficient restored first, to isolate the continuity-sign consequence."
+    },
+    {
+      "Gamma": "3/4",
+      "printed_continuity_time_eigenvalue_squared": "63/5",
+      "repaired_continuity_time_eigenvalue_squared": "-63/5",
+      "repaired_wave_frequency_squared": "63/5",
+      "scope": "Pressure coefficient restored first, to isolate the continuity-sign consequence."
+    }
+  ],
+  "periodic_energy_controls": [
+    {
+      "Ti": "1",
+      "Te": "1",
+      "de_squared": "1/16",
+      "magnetic_derivative": "3",
+      "ion_derivative": "-3/2",
+      "half_density_derivative": "-3/2",
+      "corrected_W_derivative": "0",
+      "printed_double_density_W_derivative": "-3/2",
+      "printed_Ki_over_Y": "1/2",
+      "half_density_Ki_over_Y": "1"
+    },
+    {
+      "Ti": "1",
+      "Te": "1",
+      "de_squared": "1/4",
+      "magnetic_derivative": "3",
+      "ion_derivative": "-3/2",
+      "half_density_derivative": "-3/2",
+      "corrected_W_derivative": "0",
+      "printed_double_density_W_derivative": "-3/2",
+      "printed_Ki_over_Y": "1/2",
+      "half_density_Ki_over_Y": "1"
+    },
+    {
+      "Ti": "1",
+      "Te": "3",
+      "de_squared": "1/16",
+      "magnetic_derivative": "6",
+      "ion_derivative": "-3/2",
+      "half_density_derivative": "-9/2",
+      "corrected_W_derivative": "0",
+      "printed_double_density_W_derivative": "-9/2",
+      "printed_Ki_over_Y": "1/6",
+      "half_density_Ki_over_Y": "1/3"
+    },
+    {
+      "Ti": "1",
+      "Te": "3",
+      "de_squared": "1/4",
+      "magnetic_derivative": "6",
+      "ion_derivative": "-3/2",
+      "half_density_derivative": "-9/2",
+      "corrected_W_derivative": "0",
+      "printed_double_density_W_derivative": "-9/2",
+      "printed_Ki_over_Y": "1/6",
+      "half_density_Ki_over_Y": "1/3"
+    },
+    {
+      "Ti": "2",
+      "Te": "1",
+      "de_squared": "1/16",
+      "magnetic_derivative": "9/2",
+      "ion_derivative": "-3",
+      "half_density_derivative": "-3/2",
+      "corrected_W_derivative": "0",
+      "printed_double_density_W_derivative": "-3/2",
+      "printed_Ki_over_Y": "1",
+      "half_density_Ki_over_Y": "2"
+    },
+    {
+      "Ti": "2",
+      "Te": "1",
+      "de_squared": "1/4",
+      "magnetic_derivative": "9/2",
+      "ion_derivative": "-3",
+      "half_density_derivative": "-3/2",
+      "corrected_W_derivative": "0",
+      "printed_double_density_W_derivative": "-3/2",
+      "printed_Ki_over_Y": "1",
+      "half_density_Ki_over_Y": "2"
+    },
+    {
+      "Ti": "2",
+      "Te": "3",
+      "de_squared": "1/16",
+      "magnetic_derivative": "15/2",
+      "ion_derivative": "-3",
+      "half_density_derivative": "-9/2",
+      "corrected_W_derivative": "0",
+      "printed_double_density_W_derivative": "-9/2",
+      "printed_Ki_over_Y": "1/3",
+      "half_density_Ki_over_Y": "2/3"
+    },
+    {
+      "Ti": "2",
+      "Te": "3",
+      "de_squared": "1/4",
+      "magnetic_derivative": "15/2",
+      "ion_derivative": "-3",
+      "half_density_derivative": "-9/2",
+      "corrected_W_derivative": "0",
+      "printed_double_density_W_derivative": "-9/2",
+      "printed_Ki_over_Y": "1/3",
+      "half_density_Ki_over_Y": "2/3"
+    }
+  ],
+  "Hermite_projection": {
+    "Gaussian_weight": "exp(-z^2)/sqrt(pi)",
+    "H2": "4z^2-2",
+    "H3": "8z^3-12z",
+    "unnormalized_H2_drive_projection": "-4",
+    "H2_norm_squared": "8",
+    "normalized_g2_drive": "-sqrt(2)",
+    "printed_g2_drive": "+sqrt(2)",
+    "H2_z_H3_projection": "24",
+    "normalized_m2_streaming_coupling": "sqrt(3/2); it moves to the RHS with a minus sign for the stated Eq9."
+  },
+  "positive_reconnection_and_ERMHD_controls": [
+    {
+      "Te": "1",
+      "Ti": "1",
+      "me": "1/100",
+      "tau_squared": "9/800",
+      "rate_squared": "32/9",
+      "ERMHD_balance_squared_rate": "32/19",
+      "low_beta_matching_pass": true,
+      "outflow_normalization_pass": true
+    },
+    {
+      "Te": "1",
+      "Ti": "1",
+      "me": "1/10",
+      "tau_squared": "9/80",
+      "rate_squared": "32/9",
+      "ERMHD_balance_squared_rate": "32/19",
+      "low_beta_matching_pass": true,
+      "outflow_normalization_pass": true
+    },
+    {
+      "Te": "1",
+      "Ti": "2",
+      "me": "1/100",
+      "tau_squared": "3/400",
+      "rate_squared": "16/3",
+      "ERMHD_balance_squared_rate": "2",
+      "low_beta_matching_pass": true,
+      "outflow_normalization_pass": true
+    },
+    {
+      "Te": "1",
+      "Ti": "2",
+      "me": "1/10",
+      "tau_squared": "3/40",
+      "rate_squared": "16/3",
+      "ERMHD_balance_squared_rate": "2",
+      "low_beta_matching_pass": true,
+      "outflow_normalization_pass": true
+    },
+    {
+      "Te": "3",
+      "Ti": "1",
+      "me": "1/100",
+      "tau_squared": "9/1600",
+      "rate_squared": "64/9",
+      "ERMHD_balance_squared_rate": "64/29",
+      "low_beta_matching_pass": true,
+      "outflow_normalization_pass": true
+    },
+    {
+      "Te": "3",
+      "Ti": "1",
+      "me": "1/10",
+      "tau_squared": "9/160",
+      "rate_squared": "64/9",
+      "ERMHD_balance_squared_rate": "64/29",
+      "low_beta_matching_pass": true,
+      "outflow_normalization_pass": true
+    },
+    {
+      "Te": "3",
+      "Ti": "2",
+      "me": "1/100",
+      "tau_squared": "9/2000",
+      "rate_squared": "80/9",
+      "ERMHD_balance_squared_rate": "40/17",
+      "low_beta_matching_pass": true,
+      "outflow_normalization_pass": true
+    },
+    {
+      "Te": "3",
+      "Ti": "2",
+      "me": "1/10",
+      "tau_squared": "9/200",
+      "rate_squared": "80/9",
+      "ERMHD_balance_squared_rate": "40/17",
+      "low_beta_matching_pass": true,
+      "outflow_normalization_pass": true
+    }
+  ],
+  "decay_scaling_positive_control": {
+    "subion": "tau_rec proportional to R^2/B; conserved R*B gives dE/dt proportional to -E^(5/2), hence E proportional to t^(-2/3).",
+    "MHD": "constant ion-Alfven normalized rate and conserved R*B give tau proportional to B^(-2), hence E proportional to t^(-1).",
+    "parallel_scale": "Critical balance under fixed model coefficients gives l proportional to R/B, hence t^(2/3) in the adopted subion decay."
+  },
+  "limits": [
+    "AM checks here cover the main equations/Appendix only; no AM supplement or subscription VOR was represented as read.",
+    "Changing density-energy coefficient or continuity signs is a repair of printed expressions, not evidence that source code or plotted diagnostics used those expressions.",
+    "The ERMHD rate is checked as the source's explicitly hypothetical term balance, not a justified flux-breaking model.",
+    "Ion-entropy operator is interpreted as its standard self-adjoint quadratic form, not as an operator on the entire squared field.",
+    "All exact local witnesses are independent of original simulation data; no numerical plasma results are rejected."
+  ]
+}

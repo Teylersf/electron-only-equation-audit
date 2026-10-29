@@ -1,0 +1,132 @@
+[
+  {
+    "path": "3D_supplement.pdf",
+    "bytes": 76596,
+    "sha256": "ff19215934a3cb19c18e8bffb2a5172082b45cb7940cf7f245c56e5bdfef4e28"
+  },
+  {
+    "path": "ET.pdf",
+    "bytes": 28906,
+    "sha256": "4e6ad757bb65ef3e8ffd5168e5fe14b5c2d3a23c1bc086428246eb50134433c7"
+  },
+  {
+    "path": "Fig1_old.pdf",
+    "bytes": 271527,
+    "sha256": "b45b1240b8f8b0582c7ab96ac43d05b980ec43f6f73387b1900fcfcb982e7b77"
+  },
+  {
+    "path": "Fig1.pdf",
+    "bytes": 663912,
+    "sha256": "15442df6652f60dc4f74165822ba323a7b9a58ad6e21c9d79f872cd8043c3314"
+  },
+  {
+    "path": "Fig2.pdf",
+    "bytes": 754615,
+    "sha256": "0bf7280a318d6722e151c93e2ec9e969e350a9079deea20819bb803809bdaf55"
+  },
+  {
+    "path": "Fig3.pdf",
+    "bytes": 215076,
+    "sha256": "05faa1baa81797f2d28567f17c9ff8ce0cf8e1186a7e20d0956f135f39e61013"
+  },
+  {
+    "path": "Fig4.pdf",
+    "bytes": 11415,
+    "sha256": "2570cc994fcada0b712761cb9c64d5a0b06900054b9bed431b416da9d1754a26"
+  },
+  {
+    "path": "islandmerger.pdf",
+    "bytes": 418359,
+    "sha256": "a0e4ad5b4b49d4200540b51d9cd3361f353151c7d34d003b0b82252b35258d35"
+  },
+  {
+    "path": "JzxJzy.pdf",
+    "bytes": 214670,
+    "sha256": "d6909d9f985bbffe7813928c3962282e75f74046a4652c42eb52ff0a865312a0"
+  },
+  {
+    "path": "main.bbl",
+    "bytes": 69536,
+    "sha256": "f73a6c57727ecc754132e519b57354207dfacf5c3bd3f9402af1a226bccc075c"
+  },
+  {
+    "path": "main.bib",
+    "bytes": 31656,
+    "sha256": "dc1179d4756a769ce83e70b9dabb4858e0946b60a5cc58bbc02e05a9ea4cbfcf"
+  },
+  {
+    "path": "main.tex",
+    "bytes": 37097,
+    "sha256": "a0684bc516404d59ebe488b092ee08c062a1273ccad8e785b82c01fdffdd7f81"
+  },
+  {
+    "path": "nonisothermal1.pdf",
+    "bytes": 492507,
+    "sha256": "5da875d7ce85b88a04d8acfe8fe9c2cb5bb9b400878bf76d6f07e68014d26f32"
+  },
+  {
+    "path": "nonisothermal2.pdf",
+    "bytes": 558227,
+    "sha256": "989a1837549547af43a6ee3f0b7ac7b0f7f212fb72422df55647601fae30326c"
+  },
+  {
+    "path": "sfs_contour.pdf",
+    "bytes": 141481,
+    "sha256": "9ef3549ced8ecaa5a91a21c8bcbdcaf1a3e4e6e776bdd90466bec90f73d74494"
+  },
+  {
+    "path": "Supplemental_Material-pages-10.pdf",
+    "bytes": 82549,
+    "sha256": "d967d01dfcd9f05df0039114824180dcf88b17af2a6d4ced6c818ae5ab970150"
+  },
+  {
+    "path": "Supplemental_Material-pages-1.pdf",
+    "bytes": 223762,
+    "sha256": "1f34be618f03416f4f98c50840c4d127845d9a17473569db5ebc3000e10891ef"
+  },
+  {
+    "path": "Supplemental_Material-pages-2.pdf",
+    "bytes": 547382,
+    "sha256": "faa3873b4b59991c2074bf24501314e63045fcd387f744c6bd1e98b0c58e2d19"
+  },
+  {
+    "path": "Supplemental_Material-pages-3.pdf",
+    "bytes": 297468,
+    "sha256": "0b3af0db56ecbd6c3311cbfe35114a5853e3a35709c8a6b307e0caa283984101"
+  },
+  {
+    "path": "Supplemental_Material-pages-4.pdf",
+    "bytes": 595025,
+    "sha256": "ed63d435fa6095d545eb41351fb7b31c4786aef8d1696f2c2039332023c4b3a4"
+  },
+  {
+    "path": "Supplemental_Material-pages-5.pdf",
+    "bytes": 190364,
+    "sha256": "78710fa6402a68e316867879ae3897c48614b3a95aea588bfc59e08f193a7151"
+  },
+  {
+    "path": "Supplemental_Material-pages-6.pdf",
+    "bytes": 175407,
+    "sha256": "b45a5d390d598caab01afa7a7f7767d3ec916e482f7ad11ea567f8d546f881a5"
+  },
+  {
+    "path": "Supplemental_Material-pages-7.pdf",
+    "bytes": 849535,
+    "sha256": "87b3c0e06deeb91e84ec54a56b81c7af9091dc3621fca0360fc0abbc99e878e9"
+  },
+  {
+    "path": "Supplemental_Material-pages-8.pdf",
+    "bytes": 244432,
+    "sha256": "02b3ccb45cd468023eb6d0e143d0deb1660684ff96e47dff776bbe0867f3f170"
+  },
+  {
+    "path": "Supplemental_Material-pages-9.pdf",
+    "bytes": 255962,
+    "sha256": "56981f03cb76b37f26265d2c081c094755974a305ddf58e4cce85e3585ac849a"
+  },
+  {
+    "path": "twoisland_contour.pdf",
+    "bytes": 751335,
+    "sha256": "ffb1a08b98a28ebf83c42a6b667910efe372de68234ec6f6e25d798360b24279"
+  }
+]

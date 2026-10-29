@@ -1,0 +1,339 @@
+{
+  "schema_version": 1,
+  "all_scoped_checks_complete": true,
+  "checked_at_utc": "2026-10-29T23:18:39.869762+00:00",
+  "scope": "Primaryequation/sectionverificationonly. Neitherlongprimarypaperwhole-readnorfulltargetVORverificationclaimed.",
+  "sources": [
+    {
+      "file": "zocco-schekochihin-2011-published.pdf",
+      "role": "UKAEA-hosted publishedKREHM article with publishercover",
+      "DOI": "10.1063/1.3628639",
+      "bytes": 675100,
+      "sha256": "6ca81472979b0506571dd22f435cd5a7c5f1a802b4d62b35a91717e801735735",
+      "retrieval_receipt": "zocco-schekochihin-2011-published.pdf.receipt.json"
+    },
+    {
+      "file": "astrophysical-gyrokinetics-arxiv.pdf",
+      "role": "OfficialarXiv0704.0044v4, described by officialmetadata as matchingpublishedversion",
+      "DOI": "10.1088/0067-0049/182/1/310",
+      "bytes": 1903708,
+      "sha256": "47419fbdeea137d73844c47557239f73753410cbf6f5e4b47d66bfb463ef1569",
+      "retrieval_receipt": "astrophysical-gyrokinetics-arxiv.pdf.receipt.json"
+    },
+    {
+      "file": "zocco-arxiv-v2-source.gz",
+      "role": "OfficialarXiv1104.4622v2gzip-singleTeXsource",
+      "DOI": "10.1063/1.3628639",
+      "bytes": 50879,
+      "sha256": "38d2aff21cae9beac4426750d6cae4ce72ec0d9661c9adfaa1771345b2a4bb9c",
+      "retrieval_receipt": "zocco-arxiv-v2-source.receipt.json"
+    },
+    {
+      "file": "AGK-arxiv-v4-source.tar",
+      "role": "OfficialarXiv0704.0044v4author-sourcearchive",
+      "DOI": "10.1088/0067-0049/182/1/310",
+      "bytes": 709623,
+      "sha256": "c8b73d4a98f21046420f0f2cb9aab52da750cf86212ef33abad32ec7eedfe7e1",
+      "retrieval_receipt": "AGK-arxiv-v4-source.receipt.json"
+    }
+  ],
+  "reading": {
+    "KREHM_sections": [
+      "II.B",
+      "III.A\u2013E",
+      "IV.A\u2013C",
+      "V.A\u2013C"
+    ],
+    "KREHM_principal_PDF_pages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "KREHM_nearby_context_PDF_pages": [
+      4,
+      14
+    ],
+    "AGK_relevant_passages_PDF_pages": [
+      8,
+      11,
+      21,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "whole_KREHM_or_AGK_read_claimed": false
+  },
+  "equation_locators": [
+    {
+      "primary": "Zocco2011",
+      "PDF_page": 7,
+      "printed_page": "102309-6",
+      "equations": [
+        "31",
+        "32",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42"
+      ],
+      "purpose": "Conventions, Ampere/velocity relation, continuityminus, pressurecoefficient, kinetictemperaturemoment"
+    },
+    {
+      "primary": "Zocco2011",
+      "PDF_page": 8,
+      "printed_page": "102309-7",
+      "equations": [
+        "54",
+        "55",
+        "56",
+        "57",
+        "58"
+      ],
+      "purpose": "Quasineutrality, polarization-density minus and vanishing retained ion parallelflow"
+    },
+    {
+      "primary": "Zocco2011",
+      "PDF_page": 9,
+      "printed_page": "102309-8",
+      "equations": [
+        "62",
+        "63",
+        "64",
+        "65",
+        "66",
+        "67"
+      ],
+      "purpose": "Polarization-versus-densitysign and complete model summary"
+    },
+    {
+      "primary": "Zocco2011",
+      "PDF_page": 10,
+      "printed_page": "102309-9",
+      "equations": [
+        "68",
+        "69",
+        "70",
+        "71",
+        "72"
+      ],
+      "purpose": "Free-energy densityhalf"
+    },
+    {
+      "primary": "Zocco2011",
+      "PDF_page": 11,
+      "printed_page": "102309-10",
+      "equations": [
+        "76",
+        "77",
+        "78",
+        "79",
+        "80",
+        "81",
+        "82",
+        "83"
+      ],
+      "purpose": "Combined energy and signedexchange channels"
+    },
+    {
+      "primary": "Zocco2011",
+      "PDF_page": 12,
+      "printed_page": "102309-11",
+      "equations": [
+        "86",
+        "87",
+        "88",
+        "89",
+        "90"
+      ],
+      "purpose": "Hermite convention andtemperaturecoefficient"
+    },
+    {
+      "primary": "Zocco2011",
+      "PDF_page": 13,
+      "printed_page": "102309-12",
+      "equations": [
+        "91",
+        "92",
+        "93",
+        "94",
+        "95",
+        "96",
+        "98",
+        "99"
+      ],
+      "purpose": "Hermite signs and collisionnotationboundary"
+    },
+    {
+      "primary": "AGK2009v4",
+      "PDF_page": 8,
+      "printed_page": "8",
+      "equations": [
+        "16",
+        "19",
+        "20"
+      ],
+      "purpose": "Psi bracket convention"
+    },
+    {
+      "primary": "AGK2009v4",
+      "PDF_page": 11,
+      "printed_page": "11",
+      "equations": [
+        "40",
+        "41",
+        "42",
+        "43"
+      ],
+      "purpose": "Charge/temperature ratios anddimensionlessbeta"
+    },
+    {
+      "primary": "AGK2009v4",
+      "PDF_page": 21,
+      "printed_page": "21",
+      "equations": [
+        "135"
+      ],
+      "purpose": "Phi/Psi tophysicalpotential conversion"
+    },
+    {
+      "primary": "AGK2009v4",
+      "PDF_page": 30,
+      "printed_page": "30",
+      "equations": [
+        "221",
+        "222",
+        "223",
+        "224"
+      ],
+      "purpose": "Sub-iondensity/velocity/pressureclosure"
+    },
+    {
+      "primary": "AGK2009v4",
+      "PDF_page": 31,
+      "printed_page": "31",
+      "equations": [
+        "225",
+        "226",
+        "227",
+        "230"
+      ],
+      "purpose": "ERMHDsystem andKAWdispersion"
+    },
+    {
+      "primary": "AGK2009v4",
+      "PDF_pages": [
+        33,
+        34
+      ],
+      "printed_pages": [
+        "33",
+        "34"
+      ],
+      "section": "7.6\u20137.8",
+      "equations": [
+        "242",
+        "243",
+        "244",
+        "245",
+        "246"
+      ],
+      "purpose": "Validity, frozenflux andunfreezingmechanisms"
+    }
+  ],
+  "conventions": {
+    "bracket": "df/dx*dg/dy-df/dy*dg/dx",
+    "target_and_KREHM_parallel_derivative": "partial_z-{A,.}/B0",
+    "target_and_KREHM_material_derivative": "partial_t+(c/B0){phi,.}",
+    "electron_velocity": "+(e/(cme))*de^2*LaplacianA",
+    "AGK_flux_variable": "Psi=-A/sqrt(4*pi*mi*n0i)",
+    "AGK_stream_variable": "Phi=c*phi/B0",
+    "e": "positiveelementarycharge"
+  },
+  "results": [
+    {
+      "id": "continuity_minus",
+      "verified": true,
+      "scope": "Printedtargetdensityequation undermatchingconventions",
+      "counterargument": "PrimaryEq62positiveRHS evolves minusdensity; globalpotential sign reversal must transformallconventions, notsingleterm."
+    },
+    {
+      "id": "Ohm_cTe_over_e",
+      "verified": true,
+      "scope": "Dimensionalprintedcoefficient, nottargetcode",
+      "counterargument": "Couldnormalizecoefficientto1onlywithdeclaredconsistentunits; targetAppendixA2itselfrestoresit."
+    },
+    {
+      "id": "Y_density_half",
+      "verified": true,
+      "scope": "StandardKREHM invariant undergivenweights",
+      "counterargument": "RenamingYtwicestandardrequires1/2weightinW; noactualFigure8normalizationfailureclaimed."
+    },
+    {
+      "id": "collisionless_Hermite_signs",
+      "verified": true,
+      "scope": "Streaming/source signs with statedexpansion; collisionoperator ambiguityexcluded",
+      "counterargument": "Rephasingtoflipbothrequiresg2=-theta/sqrt2,contrarystatedmoment; purestreamingsignreversal aloneisnotaninstabilityproof."
+    },
+    {
+      "id": "dimensionless_beta_i",
+      "verified": true,
+      "scope": "Standarddimensionaldefinition underprimaryconventions",
+      "counterargument": "Undeclaredvthi=1normalizationwouldbenumericallypossible; noassignmentofactualsimulationbetarefuted."
+    },
+    {
+      "id": "ERMHD_positive_control",
+      "verified": true,
+      "scope": "TargetSI2DequationsmatchprimaryafterPhi/Psiconversion andstandardbeta"
+    },
+    {
+      "id": "finite_beta_rate_positive_limit",
+      "verified": true,
+      "scope": "Formalalgebraiclowbetalimit match, notproofreconnectionfromfluxfrozenmodel"
+    },
+    {
+      "id": "finite_beta_hypothesis_caveat",
+      "verified": true,
+      "scope": "Targetalreadyacknowledgesmissingfluxbreakingandneedforvalidation; notanunnoticedrigorousderivationfailure"
+    }
+  ],
+  "visual_primary_PDF_pages": {
+    "KREHM": [
+      7,
+      10,
+      13
+    ],
+    "AGK": [
+      11,
+      31,
+      33
+    ]
+  },
+  "exact_author_TeX_crosschecks": {
+    "KREHM": "zocco-arxiv-v2-source/main.tex:1665\u20131674",
+    "AGK_beta": "AGK-arxiv-v4-source/scdhhqt_ApJ.tex:1884\u20131895",
+    "AGK_ERMHD": "AGK-arxiv-v4-source/scdhhqt_ApJ.tex:4714\u20134723",
+    "AGK_KAW": "AGK-arxiv-v4-source/scdhhqt_ApJ.tex:4783\u20134788"
+  },
+  "report": {
+    "file": "primary-theory-verification.md",
+    "sha256": "96844dff1dd5374afaf8f42d0995a2b2daa17d43e7892953383534d1d78fd9cd"
+  },
+  "GX_framework_metadata": {
+    "file": "GX-framework-identification.json",
+    "sha256": "f96c4eee0ad98b4cfa942558fe517ff42f405732b395023dfdf7311c76c0a49e"
+  },
+  "target_boundary": "arXivv2+authenticacceptedmanuscript+v2supplementonly; fullVORandsupplementnotobtained.",
+  "actual_source_GX_code_identity_or_execution_verified": false,
+  "new_source_simulation": false,
+  "new_manuscript_codeproducer_publication_or_contact": false
+}

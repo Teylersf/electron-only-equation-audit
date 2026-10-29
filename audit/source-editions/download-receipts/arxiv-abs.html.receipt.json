@@ -1,0 +1,13 @@
+{
+  "checked_at_utc": "2026-10-29T22:56:23.579163+00:00",
+  "requested_url": "https://arxiv.org/abs/2407.06020",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "final_host": "arxiv.org",
+  "downloaded_bytes": 41598,
+  "sha256": "9700986069b98fc33c922b49b3d83bd3b7e4b333be1ff03f2b1fc7dffb2f50e3",
+  "saved_as": "arxiv-abs.html",
+  "valid_expected_content": true,
+  "human_challenge_detected": false,
+  "error": null
+}

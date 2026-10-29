@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "verified_at_utc": "2026-10-29T23:06:46.463582+00:00",
+  "official_public_URL": "https://link.aps.org/accepted/10.1103/PhysRevLett.134.155201",
+  "acquisition": "User manually clicked Save in the normal Chrome publisher-linked accepted-manuscript viewer; root copied saved Downloads file into this cache. This reviewer independently rehashed both original and cached bytes.",
+  "downloaded_original_basename": "PhysRevLett.134.155201-accepted.pdf",
+  "cached_filename": "publisher-accepted-manuscript.pdf",
+  "bytes": 757810,
+  "sha256": "71c9216d20334427fdc84570c72b600c82c7009721f03837787f8d5a74eadd83",
+  "original_and_cached_copy_bytes_identical": true,
+  "pages": 10,
+  "edition": "Accepted Manuscript made available via CHORUS, NOT publisher VOR",
+  "cover_page": 1,
+  "manuscript_pages": "PDF2-10, printed1-9",
+  "printed_manuscript_date": "2025-03-19",
+  "cover_publication": {
+    "journal": "Physical Review Letters",
+    "volume": 134,
+    "article": 155201,
+    "DOI": "10.1103/PhysRevLett.134.155201",
+    "published": "2025-04-15"
+  },
+  "historical_raw_403_receipt": "publisher-accepted-manuscript.receipt.json",
+  "no_automated_challenge_bypass_or_paywall_circumvention": true
+}

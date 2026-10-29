@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "actual_run_utc": "2026-10-29T23:18:19.835555+00:00",
+  "scope": "Original independent standard-library verifier copied byte-exactly, then actually run both in an otherwise empty clean directory and at its packaged location. No source PDF, source cache, external code, credential or network is required.",
+  "program": "audit/independent-derivation-review/verify_equation_consistency.py",
+  "program_SHA256": "3f39a65b7cf057b56fec8dd7ed01e3be743aa12bd37037f2550606935cd5e8af",
+  "program_adaptation": "None. Original scratch script and packaged/clean copies have identical bytes.",
+  "environment": {
+    "python": "3.13.7",
+    "standard_library_only": true,
+    "PYTHONNOUSERSITE": "1",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "clean_directory_initial_file_count": 1,
+  "clean_exit_code": 0,
+  "packaged_exit_code": 0,
+  "stderr_bytes": 0,
+  "result": "audit/independent-derivation-review/equation-consistency-checks.json",
+  "result_SHA256": "732e3165a4fe926a7369b41d334fef8f85d3aa660f4c66542e9bc3564480f5c1",
+  "original_result": "audit/independent-derivation-review/equation-consistency-checks-original-run.json",
+  "clean_and_packaged_results_byte_identical_to_original": true,
+  "original_result_semantics": "The recorded source hashes are source-identity metadata, not claims of missing source-file rehashes during portable runs.",
+  "original_historical_copies_unchanged": true,
+  "original_copy_count": 21,
+  "optimized_run_rejected_before_output": true,
+  "optimized_exit_code": 1,
+  "normal_stdout_record": "audit/independent-derivation-review/standalone-stdout.txt",
+  "normal_stderr_record": "audit/independent-derivation-review/standalone-stderr.txt",
+  "producer_or_other_verifier_imported": false,
+  "new_MHD_PIC_eigenproblem_or_source_data_run": false,
+  "original_note_scope_preserved": "Main checks cover v2 and selected publisher-AM pages; supplement checks remain v2-SI only. No VOR identity or implementation claim."
+}

@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "recorded_at_utc": "2026-10-29T23:20:24.637444+00:00",
+  "canonical_author": "Taylor Kalin",
+  "scope": "Equation-consistency audit of named inspected editions; no VOR, source implementation or plotted-result identity claim.",
+  "target_publication": {
+    "DOI": "10.1103/PhysRevLett.134.155201",
+    "title": "Electron-Only Magnetic Reconnection and Inverse Magnetic-Energy Transfer at Subion Scales",
+    "authors": [
+      {
+        "given": "Zhuo",
+        "family": "Liu"
+      },
+      {
+        "given": "Caio",
+        "family": "Silva"
+      },
+      {
+        "given": "Lucio M.",
+        "family": "Milanese"
+      },
+      {
+        "given": "Muni",
+        "family": "Zhou"
+      },
+      {
+        "given": "Noah R.",
+        "family": "Mandell"
+      },
+      {
+        "given": "Nuno F.",
+        "family": "Loureiro"
+      }
+    ],
+    "journal": "Physical Review Letters",
+    "volume": "134",
+    "issue": "15",
+    "article": "155201",
+    "published_online": "2025-04-15",
+    "issue_date": "2025-04-18",
+    "received": "2024-07-09",
+    "accepted": "2025-03-14"
+  },
+  "supplied_edition": {
+    "filename": "2024 - Electron-only reconnection and inverse magnetic-energy transfer at sub-ion scales [2407.06020].pdf",
+    "bytes": 2913430,
+    "sha256": "e482988aa241494c52cc6071317fbd6f3a1c084173f045f2bfc03ba0ade26cd8",
+    "pages": 19,
+    "identity": "Byte-identical official arXiv2407.06020v2",
+    "PDF_date": "2025-03-11",
+    "byte_identity_verified": true
+  },
+  "official_arxiv": {
+    "abstract_URL": "https://arxiv.org/abs/2407.06020",
+    "current_version_at_preflight": 2,
+    "v1_submitted_at_UTC": "2024-07-08T15:09:04Z",
+    "v2_submitted_at_UTC": "2025-03-10T04:08:15Z",
+    "supplied_and_v2_byte_identity_verified": true,
+    "PDF_URL": "https://arxiv.org/pdf/2407.06020v2",
+    "author_source_URL": "https://arxiv.org/src/2407.06020v2",
+    "author_main_v2_SHA256": "a0684bc516404d59ebe488b092ee08c062a1273ccad8e785b82c01fdffdd7f81"
+  },
+  "publisher_accepted_manuscript": {
+    "official_public_link": "https://link.aps.org/accepted/10.1103/PhysRevLett.134.155201",
+    "edition": "CHORUS accepted manuscript, not the subscription VOR",
+    "bytes": 757810,
+    "pages": 10,
+    "cover_pages": 1,
+    "article_pages": 9,
+    "printed_article_date": "2025-03-19",
+    "SHA256": "71c9216d20334427fdc84570c72b600c82c7009721f03837787f8d5a74eadd83",
+    "original_and_cached_saved_files_independently_compared": true,
+    "supplement_present": false,
+    "main_rate_scaling_and_Appendix_retained_in_scoped_comparison": true
+  },
+  "VOR_and_journal_supplement": {
+    "retrieved": false,
+    "byte_or_equation_identity_verified": false,
+    "current_access_limit": "Subscription authorization; the earlier security response is a historical raw-request observation.",
+    "source_specific_claims_about_uninspected_VOR_excluded": true
+  },
+  "reading_scope": {
+    "supplied_v2": "All nineteen pages read by the source-edition reviewer, parent and independent derivation reviewer; includes ten supplemental pages.",
+    "accepted_manuscript": "All ten pages read by the edition reviewer and parent; selected main/Appendix pages separately checked by the derivation reviewer.",
+    "author_TeX": "Relevant v2 main and Appendix display environments checked. Supplement was supplied as PDFs; supplement TeX is not claimed available.",
+    "primary_theory": "Separate bounded primary KREHM/ERMHD section verification and GX metadata/abstract/repository identification; no full-paper or source-code audit claim."
+  },
+  "finding_locators": [
+    {
+      "ID": "C1",
+      "description": "Main-to-Appendix continuity sign inconsistency; literal linear modes have the opposite frequency-squared sign.",
+      "v2": "Main Eq. (1), PDF page 1; Appendix (A1), PDF page 5.",
+      "publisher_AM": "Main Eq. (1), printed page 1/PDF page 2; Appendix (A1), printed page 5/PDF page 6.",
+      "author_TeX_v2_lines": [
+        110,
+        114,
+        316
+      ],
+      "status": "Verified in the two explicitly inspected main editions; no VOR assertion."
+    },
+    {
+      "ID": "C2",
+      "description": "Missing dimensional pressure coefficient in the main Ohm display, restored in Appendix (A2).",
+      "v2": "Main Eq. (2), PDF page 1; Appendix (A2), PDF page 5.",
+      "publisher_AM": "Main Eq. (2), printed page 1/PDF page 2; Appendix (A2), printed page 5/PDF page 6.",
+      "author_TeX_v2_lines": [
+        111,
+        112,
+        320,
+        321,
+        322,
+        323
+      ],
+      "status": "Verified printed dimensional/main-Appendix inconsistency."
+    },
+    {
+      "ID": "C3",
+      "description": "Printed electron density-energy coefficient is doubled relative to a conserved Appendix-system invariant and the accompanying equal-temperature Ki/Y explanation.",
+      "v2": "Supplement Eq. (12), PDF page 17/supplement page 8; explanation on PDF page 18/supplement page 9.",
+      "publisher_AM": "Not assessed: this AM contains no supplement.",
+      "status": "Verified source-local coefficient inconsistency; raw diagnostics and code not inspected."
+    },
+    {
+      "ID": "C4",
+      "description": "Collisionless Hermite drive and streaming signs do not project the stated kinetic equation in the stated basis.",
+      "v2": "Supplement Eqs. (9) and (11), PDF page 15/supplement page 6.",
+      "publisher_AM": "Not assessed: this AM contains no supplement.",
+      "status": "Verified projection inconsistency; collision-functional sign ambiguity excluded."
+    },
+    {
+      "ID": "C5",
+      "description": "Printed ion-beta definition lacks dimensions of a temperature/speed factor under dimensional notation.",
+      "v2": "Paragraph immediately after supplement Eq. (2), PDF page 12/supplement page 3.",
+      "publisher_AM": "Not assessed: this AM contains no supplement.",
+      "status": "Dimensional/normalization declaration issue; an unstated thermal-speed unit is a possible benign interpretation."
+    },
+    {
+      "ID": "C6",
+      "description": "Bare parallel density-gradient term after combining subion Ohm terms lacks c(Te+Ti)/e.",
+      "v2": "Supplement Eq. (4), PDF page 14/supplement page 5.",
+      "publisher_AM": "Not assessed: this AM contains no supplement.",
+      "status": "Verified printed-expression inconsistency; nonlinear shell transfer and implementation not rejected."
+    }
+  ],
+  "retained_results_and_limits": [
+    "Appendix A already supplies the consistent core signs and dimensional pressure coefficient.",
+    "The modeled reconnection rate, outflow-time normalization and conditional coalescence/critical-balance exponents retain their algebraic support.",
+    "The finite-beta extension is explicitly hypothetical because ideal ERMHD lacks flux-breaking physics.",
+    "No statement about actual GX signs, density-energy diagnostics, simulation correctness or observed decay follows from these printed-expression witnesses."
+  ],
+  "source_material_bundled": {
+    "PDFs": false,
+    "page_images": false,
+    "full_article_text": false,
+    "complete_author_article_TeX_or_archives": false,
+    "attributed_main_display_environment_extract": true,
+    "original_review_notes_and_identity_metadata": true
+  },
+  "source_cache_reference_semantics": "Basenames in original records identify separately cached evidence, not required runtime files. Offline programs use recorded identities and do not falsely rehash absent source PDFs.",
+  "availability_context": {
+    "correction_search_bounded": true,
+    "target_specific_correction_identified": false,
+    "target_specific_run_inputs_or_raw_outputs_recovered": false,
+    "public_solver_framework_identified": true,
+    "framework": "GX",
+    "framework_DOI": "10.1017/S0022377824000631",
+    "official_repository": "https://bitbucket.org/gyrokinetics/gx",
+    "official_documentation": "https://gx.readthedocs.io/en/latest/",
+    "target_run_commit_or_branch_identified": false,
+    "excluded_different_study_deposit": "10.5281/zenodo.14919784"
+  },
+  "records": {
+    "historical_edition_preflight": {
+      "path": "audit/source-editions/source-editions-preflight-original.json",
+      "bytes": 12072,
+      "SHA256": "fdc0f1074432d16a33313f4a24be3d67fed3af2f4744a945d119c770087c79aa"
+    },
+    "historical_edition_concordance": {
+      "path": "audit/source-editions/edition-concordance-original.md",
+      "bytes": 9136,
+      "SHA256": "58a669ea93e0e4622477c2cff0ea5b6132b3ee4edaa9ffee4aae60c585f87623"
+    },
+    "copy_manifest": {
+      "path": "audit/source-record-copy-manifest.json",
+      "bytes": 8455,
+      "SHA256": "7498541e6dcf50ef8170fa4f5d417d0e0d6db74bb6e48e226bb669fe0f5fd7a1"
+    },
+    "original_derivation_note": {
+      "path": "audit/independent-derivation-review/independent-derivation-review-original.md",
+      "bytes": 13887,
+      "SHA256": "0a972ec3b4e9ddab3d87d6c9d7beb934cf7cae91970ac0b79664982f11bc1b24"
+    },
+    "original_derivation_provenance": {
+      "path": "audit/independent-derivation-review/derivation-review-provenance-original.json",
+      "bytes": 12322,
+      "SHA256": "f40595606eb3742315bb48edf549d3fb237e19d207de86eb8ecf88ddf46af3c1"
+    },
+    "primary_theory_note": {
+      "path": "audit/primary-reference-review/primary-theory-verification.md",
+      "bytes": 14235,
+      "SHA256": "96844dff1dd5374afaf8f42d0995a2b2daa17d43e7892953383534d1d78fd9cd"
+    },
+    "primary_theory_metadata": {
+      "path": "audit/primary-reference-review/primary-theory-verification.json",
+      "bytes": 9427,
+      "SHA256": "3f923688fa65beb439383b8dd28c359c873bee2afc9b991d358756eb1b56fd12"
+    },
+    "GX_framework_identification": {
+      "path": "audit/primary-reference-review/GX-framework-identification.json",
+      "bytes": 1934,
+      "SHA256": "f96c4eee0ad98b4cfa942558fe517ff42f405732b395023dfdf7311c76c0a49e"
+    },
+    "actual_original_verifier_portability": {
+      "path": "audit/independent-derivation-review/copy-and-portability.json",
+      "bytes": 2024,
+      "SHA256": "a735871a747627224392ea30ce39f988dfdb7bc13184ac1068557da0f65598bc"
+    },
+    "source_concordance": {
+      "path": "SOURCE_CONCORDANCE.md",
+      "bytes": 9531,
+      "SHA256": "bbafa8dd919c4ea4944e6064e54c469c0feabd10799d380bb433a50afe5ef480"
+    }
+  },
+  "original_record_count": 24,
+  "all_original_notes_scripts_and_receipts_copied_byte_exactly": true,
+  "portable_program_adaptation": "None required for the independent derivation program; actual clean and packaged runs match the original result bytes.",
+  "new_external_mutation_performed": false
+}

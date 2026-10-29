@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "reviewed_at_utc": "2026-10-29T23:15:13.423378+00:00",
+  "review_scope": "Independent derivation audit of all 19 supplied v2 pages and relevant author TeX, with selected publisher-AM main/Appendix visual checks. No other verifier or source implementation imported.",
+  "source_edition_labels": {
+    "supplied": "arXiv:2407.06020v2; 19 pages including its ten-page supplement; actual local PDF bytes rehashed in this receipt.",
+    "author_source": "v2 main.tex only; embedded supplement PDFs are not represented as an available supplement TeX source.",
+    "publisher_AM": "Publisher-hosted CHORUS accepted manuscript; ten PDF pages including cover and nine article pages, internal date 19 March 2025; selected equations verified only.",
+    "VOR": "Subscription VOR and final journal supplement not retrieved or verified by this review."
+  },
+  "read_scope": {
+    "v2": "All 19 numbered page-text files read, including figures, captions, footnotes, references and the extracted appended supplement.",
+    "AM": "Selected main/Appendix printed pages 1 and 5 (PDF pages 2 and 6) visually inspected; no full AM reading claimed for this independent assignment.",
+    "v2_visual_pages": [
+      1,
+      12,
+      13,
+      14,
+      15,
+      17
+    ],
+    "AM_visual_PDF_pages": [
+      2,
+      6
+    ]
+  },
+  "locators": [
+    {
+      "ID": "C1",
+      "description": "Main-to-Appendix continuity sign inconsistency; literal linear modes have the opposite frequency-squared sign.",
+      "v2": "Main Eq. (1), PDF page 1; Appendix (A1), PDF page 5.",
+      "publisher_AM": "Main Eq. (1), printed page 1/PDF page 2; Appendix (A1), printed page 5/PDF page 6.",
+      "author_TeX_v2_lines": [
+        110,
+        114,
+        316
+      ],
+      "status": "Verified in the two explicitly inspected main editions; no VOR assertion."
+    },
+    {
+      "ID": "C2",
+      "description": "Missing dimensional pressure coefficient in the main Ohm display, restored in Appendix (A2).",
+      "v2": "Main Eq. (2), PDF page 1; Appendix (A2), PDF page 5.",
+      "publisher_AM": "Main Eq. (2), printed page 1/PDF page 2; Appendix (A2), printed page 5/PDF page 6.",
+      "author_TeX_v2_lines": [
+        111,
+        112,
+        320,
+        321,
+        322,
+        323
+      ],
+      "status": "Verified printed dimensional/main-Appendix inconsistency."
+    },
+    {
+      "ID": "C3",
+      "description": "Printed electron density-energy coefficient is doubled relative to a conserved Appendix-system invariant and the accompanying equal-temperature Ki/Y explanation.",
+      "v2": "Supplement Eq. (12), PDF page 17/supplement page 8; explanation on PDF page 18/supplement page 9.",
+      "publisher_AM": "Not assessed: this AM contains no supplement.",
+      "status": "Verified source-local coefficient inconsistency; raw diagnostics and code not inspected."
+    },
+    {
+      "ID": "C4",
+      "description": "Collisionless Hermite drive and streaming signs do not project the stated kinetic equation in the stated basis.",
+      "v2": "Supplement Eqs. (9) and (11), PDF page 15/supplement page 6.",
+      "publisher_AM": "Not assessed: this AM contains no supplement.",
+      "status": "Verified projection inconsistency; collision-functional sign ambiguity excluded."
+    },
+    {
+      "ID": "C5",
+      "description": "Printed ion-beta definition lacks dimensions of a temperature/speed factor under dimensional notation.",
+      "v2": "Paragraph immediately after supplement Eq. (2), PDF page 12/supplement page 3.",
+      "publisher_AM": "Not assessed: this AM contains no supplement.",
+      "status": "Dimensional/normalization declaration issue; an unstated thermal-speed unit is a possible benign interpretation."
+    },
+    {
+      "ID": "C6",
+      "description": "Bare parallel density-gradient term after combining subion Ohm terms lacks c(Te+Ti)/e.",
+      "v2": "Supplement Eq. (4), PDF page 14/supplement page 5.",
+      "publisher_AM": "Not assessed: this AM contains no supplement.",
+      "status": "Verified printed-expression inconsistency; nonlinear shell transfer and implementation not rejected."
+    }
+  ],
+  "actual_run": {
+    "program": "independent-derivation-review/verify_equation_consistency.py",
+    "result": "independent-derivation-review/equation-consistency-checks.json",
+    "environment": {
+      "python": "3.13.7",
+      "standard_library_only": true
+    },
+    "status": "pass",
+    "energy_witnesses": 8,
+    "linear_symbol_cases": 3,
+    "positive_rate_and_ERMHD_cases": 8,
+    "Hermite_projection": "Exact Gaussian moments; H2 drive projection−4 before normalization.",
+    "producer_imported": false,
+    "other_verifier_imported": false,
+    "source_numerical_data_used": false,
+    "optimized_Python_rejected_before_result_write": true
+  },
+  "retained_positive_results": [
+    "Appendix A7/A8 and main Eq. (4) rate algebra.",
+    "Outflow-time normalization Eq. (5), distinguished from electron-Alfven-speed normalization.",
+    "Conditional subion and MHD decay exponents, with conserved flux and volume filling stated as assumptions.",
+    "Critical-balance parallel-length exponent at fixed coefficients.",
+    "Supplement Eq. (3) square-root grouping and algebra, using conventional dimensionless ion beta; extension remains explicitly hypothetical."
+  ],
+  "excluded_or_unresolved": [
+    "No solver, plot, observed scaling, or original numerical energy result is declared wrong.",
+    "No VOR or final-journal-supplement defect is asserted.",
+    "No collision-functional sign convention is adjudicated.",
+    "The standard self-adjoint ion-entropy quadratic form is used; an operator-on-the-entire-square criticism is excluded.",
+    "Isothermal-limit, ordering, finite-FLR and flux-breaking assumptions already disclosed by the source are credited.",
+    "Normalized structure-function/global local-field prefactors are not treated as material defects."
+  ],
+  "publication_judgment": "A bounded technical consistency comment naming the inspected editions is supportable for reproducibility. Its novelty is source-specific documentation and exact witnesses, not a new physical model. Standard KREHM and the source Appendix receive prior credit. A separate primary 2011-reference check is being handled by the parent team; this reviewer did not claim that full paper was reread.",
+  "file_integrity": [
+    {
+      "file": "supplied.pdf",
+      "bytes": 2913430,
+      "SHA256": "e482988aa241494c52cc6071317fbd6f3a1c084173f045f2bfc03ba0ade26cd8"
+    },
+    {
+      "file": "supplied-full-text.txt",
+      "bytes": 70872,
+      "SHA256": "d3ff942ec235f2361a7b75a1ed2c9c3e5cc47f1f1c14fe86311bcf1a0f960d5b"
+    },
+    {
+      "file": "arxiv-source-v2/main.tex",
+      "bytes": 37097,
+      "SHA256": "a0684bc516404d59ebe488b092ee08c062a1273ccad8e785b82c01fdffdd7f81"
+    },
+    {
+      "file": "publisher-accepted-manuscript.pdf",
+      "bytes": 757810,
+      "SHA256": "71c9216d20334427fdc84570c72b600c82c7009721f03837787f8d5a74eadd83"
+    },
+    {
+      "file": "independent-derivation-review/verify_equation_consistency.py",
+      "bytes": 9858,
+      "SHA256": "3f39a65b7cf057b56fec8dd7ed01e3be743aa12bd37037f2550606935cd5e8af"
+    },
+    {
+      "file": "independent-derivation-review/equation-consistency-checks.json",
+      "bytes": 8904,
+      "SHA256": "732e3165a4fe926a7369b41d334fef8f85d3aa660f4c66542e9bc3564480f5c1"
+    },
+    {
+      "file": "independent-derivation-review/independent-derivation-review.md",
+      "bytes": 13887,
+      "SHA256": "0a972ec3b4e9ddab3d87d6c9d7beb934cf7cae91970ac0b79664982f11bc1b24"
+    },
+    {
+      "file": "supplied-page-01.txt",
+      "bytes": 5281,
+      "SHA256": "9ee983e727ee46e32e28bab83a56d2059f62d3ab1ee5c32d6991e67cae356cb3"
+    },
+    {
+      "file": "supplied-page-02.txt",
+      "bytes": 6032,
+      "SHA256": "ef55f4dfb7807487b40f3cc25da45e38f13d5dba286b54d57061bdbcb40f79d2"
+    },
+    {
+      "file": "supplied-page-03.txt",
+      "bytes": 5103,
+      "SHA256": "c9341fdc5e3e53432818e98cd89055d889dc12aa9c79013afdc5d3c3c9215050"
+    },
+    {
+      "file": "supplied-page-04.txt",
+      "bytes": 5271,
+      "SHA256": "bfc5cc87cb6828edc4d78300a0af55e3231c98bc2ff68d4b816a7a5342fa0351"
+    },
+    {
+      "file": "supplied-page-05.txt",
+      "bytes": 4053,
+      "SHA256": "840d678fbf1a170acd2ad03ea34085952c18934e6d25f83d8268869b774fc4cf"
+    },
+    {
+      "file": "supplied-page-06.txt",
+      "bytes": 5273,
+      "SHA256": "2b0a1489447a519843fb17c35854d01aa14ffddf0a6600beddf8f9b7c51fd060"
+    },
+    {
+      "file": "supplied-page-07.txt",
+      "bytes": 6598,
+      "SHA256": "679f348cd2f8e18bbecdbba1d51e493a8a937ff3e3ed8515afbdd91ad02a191b"
+    },
+    {
+      "file": "supplied-page-08.txt",
+      "bytes": 6626,
+      "SHA256": "7edebf12423e9c6770382b02aa3e75968e9e36689bd882397c6a960513f44568"
+    },
+    {
+      "file": "supplied-page-09.txt",
+      "bytes": 663,
+      "SHA256": "b178c1f15ad605c43363c997cedad33c3faafd1bf7e649b58be64544a3619085"
+    },
+    {
+      "file": "supplied-page-10.txt",
+      "bytes": 2682,
+      "SHA256": "90ddac9394357fd91f22dccf10a24b72ff813d01400630e269036c3fa9578d4c"
+    },
+    {
+      "file": "supplied-page-11.txt",
+      "bytes": 2261,
+      "SHA256": "66a718a93bbf7f3b68f6652a37aa43e1beeb8460e238eaac36523f1f0f69eb8c"
+    },
+    {
+      "file": "supplied-page-12.txt",
+      "bytes": 2347,
+      "SHA256": "565f9ada1da96dd243ce97c98a183a7757e6d76ed060e1898b82ddb12d9a7a73"
+    },
+    {
+      "file": "supplied-page-13.txt",
+      "bytes": 1429,
+      "SHA256": "adc53ac161bea48cacc3d9a291dff53f9dc6fc88ef407f76175800e99710623b"
+    },
+    {
+      "file": "supplied-page-14.txt",
+      "bytes": 3152,
+      "SHA256": "a0733dc78dc4e6397fca1c483e3bb70c5759c9428271ba24e1811dfc9d81085a"
+    },
+    {
+      "file": "supplied-page-15.txt",
+      "bytes": 3443,
+      "SHA256": "7f77749d26f338b6b40b61fa7b8223c5f8599bfe2cbff3c07f6e5ed5609fc5de"
+    },
+    {
+      "file": "supplied-page-16.txt",
+      "bytes": 2726,
+      "SHA256": "b88c8775de1a8cc1738e2501d83efe7b9783649e76d05c873c21c4c2e935a610"
+    },
+    {
+      "file": "supplied-page-17.txt",
+      "bytes": 2558,
+      "SHA256": "066f9c76852063712b25b71047e3b98973bb3c735e74ec93596d96a29a7310bd"
+    },
+    {
+      "file": "supplied-page-18.txt",
+      "bytes": 2862,
+      "SHA256": "f2ef3f06b7ce06ebf254df61374a55f8665bc9ec17dc392d4cec6a783dd34b4f"
+    },
+    {
+      "file": "supplied-page-19.txt",
+      "bytes": 2050,
+      "SHA256": "7bfce13190f3ca3337834f1ca0ec15c60bc586e850ed391ec751103e332a7c4c"
+    },
+    {
+      "file": "supplied-page-01.png",
+      "bytes": 452222,
+      "SHA256": "7f4c499c00c7428a4df4507827bc932122b4fbe4fb6b71d28302c6aeb3998dd0"
+    },
+    {
+      "file": "supplied-page-12.png",
+      "bytes": 195105,
+      "SHA256": "96cdccdd935b8c5a3ab16b116fce732ad42099914795e09ad3bb92a93031e75d"
+    },
+    {
+      "file": "supplied-page-13.png",
+      "bytes": 344380,
+      "SHA256": "ba28efdd61c13cfeb23d5fd72ccd089610811d3bda34ab9c77f3b82597cf5768"
+    },
+    {
+      "file": "supplied-page-14.png",
+      "bytes": 233873,
+      "SHA256": "cb46f951aac7b63f893b44036a6975a9e8346850262afc576e1bb6662830457e"
+    },
+    {
+      "file": "supplied-page-15.png",
+      "bytes": 256712,
+      "SHA256": "e6d66e2e3e2d8f21d6df9c2f94168aef129e280a8cc2955bcf1c9cb5ce22a965"
+    },
+    {
+      "file": "supplied-page-17.png",
+      "bytes": 231075,
+      "SHA256": "f1bc6be76bc68ecd5bacaf3f793cbfeb7e32da30748ecfda11234092eca4b053"
+    },
+    {
+      "file": "publisher-accepted-page-02.png",
+      "bytes": 497582,
+      "SHA256": "f0510e97b5d965973259b618b2826e1c24264880abde907130d24e9c105f698d"
+    },
+    {
+      "file": "publisher-accepted-page-06.png",
+      "bytes": 502719,
+      "SHA256": "5499d0dc374df80a74035f3fee644004289c7b1c710c8b7e79063b6315cc1eaf"
+    }
+  ],
+  "external_mutations_performed": false,
+  "Chrome_actions_performed": false,
+  "canonical_project_edits_performed": false,
+  "new_PDF_manuscript_producer_or_publication_performed": false
+}

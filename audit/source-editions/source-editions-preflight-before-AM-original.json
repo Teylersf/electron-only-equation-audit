@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T23:00:10.198620+00:00",
+  "queue_id": "doc-2407.06020",
+  "status": "official_arxiv_versions_verified_VOR_identified_subscription_limited",
+  "scope": "Identity/edition preparation only, not a new scientific audit, mathematical verdict, manuscript or publication.",
+  "supplied": {
+    "filename": "2024 - Electron-only reconnection and inverse magnetic-energy transfer at sub-ion scales [2407.06020].pdf",
+    "bytes": 2913430,
+    "sha256": "e482988aa241494c52cc6071317fbd6f3a1c084173f045f2bfc03ba0ade26cd8",
+    "pages": 19,
+    "identity": "Byte-identical official arXiv2407.06020v2",
+    "PDF_date": "2025-03-11",
+    "byte_identity_verified": true
+  },
+  "arxiv": {
+    "abstract_URL": "https://arxiv.org/abs/2407.06020",
+    "abstract_cache": "arxiv-abs.html",
+    "abstract_cache_sha256": "9700986069b98fc33c922b49b3d83bd3b7e4b333be1ff03f2b1fc7dffb2f50e3",
+    "versions": [
+      {
+        "version": 1,
+        "submitted_at_UTC": "2024-07-08T15:09:04Z",
+        "PDF": "arxiv-v1.pdf",
+        "pages": 7,
+        "author_source": "arxiv-v1-source.tar"
+      },
+      {
+        "version": 2,
+        "submitted_at_UTC": "2025-03-10T04:08:15Z",
+        "PDF": "arxiv-v2.pdf",
+        "pages": 19,
+        "author_source": "arxiv-v2-source.tar"
+      }
+    ],
+    "all_current_listed_versions_retrieved": true
+  },
+  "journal": {
+    "DOI": "10.1103/PhysRevLett.134.155201",
+    "title": "Electron-Only Magnetic Reconnection and Inverse Magnetic-Energy Transfer at Subion Scales",
+    "authors": [
+      {
+        "given": "Zhuo",
+        "family": "Liu"
+      },
+      {
+        "given": "Caio",
+        "family": "Silva"
+      },
+      {
+        "given": "Lucio M.",
+        "family": "Milanese"
+      },
+      {
+        "given": "Muni",
+        "family": "Zhou"
+      },
+      {
+        "given": "Noah R.",
+        "family": "Mandell"
+      },
+      {
+        "given": "Nuno F.",
+        "family": "Loureiro"
+      }
+    ],
+    "journal": "Physical Review Letters",
+    "volume": "134",
+    "issue": "15",
+    "article": "155201",
+    "published_online": "2025-04-15",
+    "issue_date": "2025-04-18",
+    "received": "2024-07-09",
+    "accepted": "2025-03-14",
+    "VOR_PDF_obtained": false,
+    "VOR_fulltext_comparison_performed": false,
+    "accepted_manuscript_obtained": false,
+    "current_access": "Subscription authorization required; publisher provided accepted-manuscript link exists, but normal raw PDF requests returned403.",
+    "access_observation": "publisher-ui-access-observation.json",
+    "identity_basis": "Exact six-author match and title continuity, official APS publication record and Crossref DOI metadata; arXiv page currently does not expose a journal-reference field."
+  },
+  "artifacts": [
+    {
+      "path": "supplied.pdf",
+      "edition": "Supplied official arXivv2",
+      "bytes": 2913430,
+      "sha256": "e482988aa241494c52cc6071317fbd6f3a1c084173f045f2bfc03ba0ade26cd8",
+      "pages": 19
+    },
+    {
+      "path": "arxiv-v2.pdf",
+      "edition": "Official arXivv2",
+      "bytes": 2913430,
+      "sha256": "e482988aa241494c52cc6071317fbd6f3a1c084173f045f2bfc03ba0ade26cd8",
+      "pages": 19
+    },
+    {
+      "path": "arxiv-v1.pdf",
+      "edition": "Official arXivv1",
+      "bytes": 710338,
+      "sha256": "2466c733c1b731def2e6f2cf963af5ad8e428eca1e80b3b6fdbe491419113d09",
+      "pages": 7
+    },
+    {
+      "path": "arxiv-v2-source.tar",
+      "edition": "Official arXivv2 author source archive",
+      "bytes": 7457932,
+      "sha256": "dcb3becc8d69928088b22cef4b03b877d297bdbcbae46b64efa22b2705965d47"
+    },
+    {
+      "path": "arxiv-v1-source.tar",
+      "edition": "Official arXivv1 author source archive",
+      "bytes": 1132377,
+      "sha256": "56351ec0d7867eb95cdc90994e265ee7fd4674fa67e05f00be4971a797646ea4"
+    }
+  ],
+  "author_source_inventory": {
+    "v1": "arxiv-source-v1-inventory.json",
+    "v2": "arxiv-source-v2-inventory.json",
+    "source_main_v1_sha256": "ecfca1cfc82558979743f460555fea95af235edb19314cab9a3e6f41dc1919fb",
+    "source_main_v2_sha256": "a0684bc516404d59ebe488b092ee08c062a1273ccad8e785b82c01fdffdd7f81",
+    "source_diff": "arxiv-v1-v2-main-source.diff",
+    "equation_environment_extraction": "arxiv-equation-environments.json",
+    "safe_archive_extraction": true,
+    "source_programs_or_raw_simulation_diagnostics_identified": false
+  },
+  "descriptive_arxiv_edition_changes": [
+    {
+      "id": "title_and_abstract",
+      "v1": "Title omits magnetic; abstract includes low-beta parenthetical.",
+      "v2": "Title adds magnetic; abstract removes that parenthetical while main low-beta model remains.",
+      "locators": [
+        "arxiv-source-v1/main.tex:46",
+        "arxiv-source-v2/main.tex:48",
+        "PDF first pages"
+      ]
+    },
+    {
+      "id": "ordering_and_applicability",
+      "v1": "Uses strong separation de << R << min(rhoi,rhos).",
+      "v2": "Uses de < R < min(rhoi,rhos), with new footnote38 explaining formal ordering, empirical validity and rhoi/de ceiling; all simulations stated rhoi/de<=20.",
+      "locators": [
+        "arxiv-source-v2/main.tex:126",
+        "arxiv-source-v2/main.tex:174",
+        "arxiv-source-v2/main.tex:189"
+      ]
+    },
+    {
+      "id": "numerical_and_geometry_detail",
+      "v1": "Earlier simulation descriptions and rate-plot parameter captions.",
+      "v2": "Adds role of hyperdiffusion against nonlinear thinning, current-sheet width confirmation, appendix derivation and revised Figure1 parameter caption.",
+      "locators": [
+        "arxiv-source-v1/main.tex:177",
+        "arxiv-source-v2/main.tex:166",
+        "arxiv-source-v2/main.tex:181",
+        "arxiv-source-v2/main.tex:305"
+      ]
+    },
+    {
+      "id": "three_dimensional_parameter",
+      "v1": "rhoi=2.0; de=.04.",
+      "v2": "rhoi=1.0; de=.04.",
+      "locators": [
+        "arxiv-source-v1/main.tex:228",
+        "arxiv-source-v2/main.tex:235"
+      ]
+    },
+    {
+      "id": "cascade_context",
+      "v1": "Earlier forward/inverse discussion.",
+      "v2": "Adds discussion and supplemental diagnostics of forward/inverse transfer, non-isothermal behavior and limitation for magnetic islands that are not volume-filling; reported kinetic-to-MHD crossover time revised from about .2 to .1 tauA.",
+      "locators": [
+        "arxiv-source-v2/main.tex:249",
+        "arxiv-source-v2/main.tex:255",
+        "arxiv-source-v2/main.tex:278"
+      ]
+    },
+    {
+      "id": "appendix_and_supplement",
+      "v1": "7page PDF; source archive6files, no supplemental PDF embedded.",
+      "v2": "19page PDF: main text pp1-5, derivation appendix pp5-6, bibliography pp6-9, ten supplemental pages pp10-19. Source26files includes eight added displayed derivation environments and separate supplemental PDFs.",
+      "locators": [
+        "arxiv-source-v2/main.tex:304",
+        "arxiv-source-v2/main.tex:373",
+        "supplied-page-10.txt"
+      ]
+    }
+  ],
+  "extraction": {
+    "primary_complete_text": "supplied-full-text.txt",
+    "primary_complete_text_sha256": "d3ff942ec235f2361a7b75a1ed2c9c3e5cc47f1f1c14fe86311bcf1a0f960d5b",
+    "numbered_pages": "supplied-page-01.txt through supplied-page-19.txt",
+    "mode": "pypdf default extract_text; preserves text in rotated embedded supplement Form objects",
+    "all_pages_nonempty": true,
+    "layout_text_files_retained": true,
+    "layout_warning": "Layout extraction omitted most rotated appended supplemental text; retained only as separately named layout files, not the primary complete text.",
+    "v1_text": "arxiv-v1-full-text.txt",
+    "v2_text": "arxiv-v2-full-text.txt"
+  },
+  "rendering": {
+    "supplied_pages": 19,
+    "dpi": 130,
+    "PNG_pattern": "supplied-page-01.png through supplied-page-19.png",
+    "v1_pages": 7,
+    "v1_PNG_pattern": "arxiv-v1-page-01.png through arxiv-v1-page-07.png",
+    "contact_sheet": "supplied-contact-sheet.png",
+    "visual_scope": "All19-page contact sheet plus full-size pages1 and10 inspected for identity/supplement presence, not a full scientific or typography audit.",
+    "renderer_warnings": "Poppler reports missing display-font aliases; rendered identity/sample pages are legible. Critical formula reading still requires source-PDF visual checks."
+  },
+  "correction_and_deposit_context": {
+    "record": "correction-and-deposit-check.json",
+    "sha256": "3fab7f4a7153fd469766a69a097ddefcc9453a85d02294a33d8cdbc2e4e33672",
+    "Crossref_relation": {},
+    "target_specific_correction_found": false,
+    "target_linked_data_deposit_found": false,
+    "bounded_absence_only": true,
+    "GX_numerical_code_cited_in_arxiv": true,
+    "target_simulation_scripts_recovered": false,
+    "near_match_DOI_not_this_study": "10.5281/zenodo.14919784"
+  },
+  "final_edition_limit": "The supplied PDF is v2, not established as VOR. No VOR scientific difference, final equation error or corrected final statement is inferred without final text. Accepted manuscript is also distinct from VOR.",
+  "new_scientific_claims": false,
+  "new_manuscript_or_code_authored": false,
+  "publication_Git_queue_or_catalogue_mutation": false
+}

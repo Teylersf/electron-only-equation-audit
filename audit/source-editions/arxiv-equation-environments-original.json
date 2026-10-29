@@ -1,0 +1,230 @@
+[
+  {
+    "edition": "arXivv1",
+    "source_path": "arxiv-source-v1/main.tex",
+    "source_sha256": "ecfca1cfc82558979743f460555fea95af235edb19314cab9a3e6f41dc1919fb",
+    "display_environments": [
+      {
+        "environment": "align",
+        "start_line": 107,
+        "end_line": 111,
+        "labels": [
+          "eq:ne",
+          "eq:Az"
+        ],
+        "source_TeX": "\\begin{align}\n\\frac{1}{n_{0e}} \\frac{d\\, \\delta n_e}{d t} = \\hat{\\mathbf{b}}\\cdot \\nabla \\frac{e}{c m_e} d_e^2 \\nabla_{\\perp}^2 A_z, \\label{eq:ne} \\\\\n\\frac{d}{d t}\\left(A_z-d_e^2 \\nabla_{\\perp}^2 A_z\\right)= - c\\frac{\\partial \\varphi}{\\partial z} + \\hat{\\mathbf{b}}\\cdot \\nabla \\frac{\\delta n_e}{n_{0 e}}.\n\\label{eq:Az}\n\\end{align}"
+      },
+      {
+        "environment": "equation",
+        "start_line": 115,
+        "end_line": 118,
+        "labels": [
+          "eq:gk_poisson"
+        ],
+        "source_TeX": "\\begin{equation}\n    \\label{eq:gk_poisson}\n    \\frac{\\delta n_e}{n_{0e}}=\\frac{T_{0e}}{T_{0i}}(\\hat{\\Gamma}_0-1)\\frac{e\\varphi}{T_{0e}},\n\\end{equation}"
+      },
+      {
+        "environment": "equation",
+        "start_line": 145,
+        "end_line": 148,
+        "labels": [
+          "eq:rec_rate"
+        ],
+        "source_TeX": "\\begin{equation}\n    \\label{eq:rec_rate}\n    \\mathcal{R}_{\\rm rec} \\sim \\sqrt{1+\\frac{T_{0i}}{T_{0e}}}\\frac{\\rho_s}{\\delta_y} \\sim  \\sqrt{1+\\frac{T_{0i}}{T_{0e}}}\\frac{\\rho_s}{R},\n\\end{equation}"
+      },
+      {
+        "environment": "equation",
+        "start_line": 155,
+        "end_line": 157,
+        "labels": [],
+        "source_TeX": "\\begin{equation}\n    \\mathcal{R}_{\\rm rec,e} \\sim {d_e}/{R};\n\\end{equation}"
+      },
+      {
+        "environment": "equation",
+        "start_line": 200,
+        "end_line": 203,
+        "labels": [
+          "eq:evolution"
+        ],
+        "source_TeX": "\\begin{equation}\n\\frac{d \\mathcal{E}}{d t} \\propto \\frac{d B_{\\perp}^2}{d t } \\sim -\\frac{B_{\\perp}^2}{\\tau_{\\rm rec}} \\propto - B_{\\perp}^5.\n\\label{eq:evolution}\n\\end{equation}"
+      },
+      {
+        "environment": "equation",
+        "start_line": 207,
+        "end_line": 210,
+        "labels": [
+          "eq:scale_subrhoi"
+        ],
+        "source_TeX": "\\begin{equation}\nk_{\\perp} \\propto \\tilde{t}^{-1 / 3}, \\quad B_\\perp \\propto \\tilde{t}^{-1 / 3}, \\quad \\mathcal{E} \\propto \\tilde{t}^{-2/3}.\n\\label{eq:scale_subrhoi}\n\\end{equation}"
+      },
+      {
+        "environment": "equation",
+        "start_line": 220,
+        "end_line": 223,
+        "labels": [
+          "eq:length"
+        ],
+        "source_TeX": "\\begin{equation}\n    l \\sim { B_z}/({k_{\\perp}B_{\\perp}}) \\propto \\tilde{t}^{2/3}.\n    \\label{eq:length}\n\\end{equation}"
+      },
+      {
+        "environment": "equation",
+        "start_line": 251,
+        "end_line": 254,
+        "labels": [
+          "eq:scale_mhd"
+        ],
+        "source_TeX": "\\begin{equation}\nk_{\\perp} \\propto \\tilde{t}^{-1 / 2}, \\quad B\\propto\\tilde{t}^{-1 / 2}, \\quad \\mathcal{E}\\propto \\tilde{t}^{-1}.\n\\label{eq:scale_mhd}\n\\end{equation}"
+      }
+    ],
+    "scope": "Exact author-TeX environment extraction; not proof verification, source layout reconstruction or final journal equation comparison."
+  },
+  {
+    "edition": "arXivv2",
+    "source_path": "arxiv-source-v2/main.tex",
+    "source_sha256": "a0684bc516404d59ebe488b092ee08c062a1273ccad8e785b82c01fdffdd7f81",
+    "display_environments": [
+      {
+        "environment": "align",
+        "start_line": 109,
+        "end_line": 113,
+        "labels": [
+          "eq:ne",
+          "eq:Az"
+        ],
+        "source_TeX": "\\begin{align}\n\\frac{1}{n_{0e}} \\frac{d\\, \\delta n_e}{d t} = \\hat{\\mathbf{b}}\\cdot \\nabla \\frac{e}{c m_e} d_e^2 \\nabla_{\\perp}^2 A_z, \\label{eq:ne} \\\\\n\\frac{d}{d t}\\left(A_z-d_e^2 \\nabla_{\\perp}^2 A_z\\right)= - c\\frac{\\partial \\varphi}{\\partial z} + \\hat{\\mathbf{b}}\\cdot \\nabla \\frac{\\delta n_e}{n_{0 e}}.\n\\label{eq:Az}\n\\end{align}"
+      },
+      {
+        "environment": "equation",
+        "start_line": 117,
+        "end_line": 120,
+        "labels": [
+          "eq:gk_poisson"
+        ],
+        "source_TeX": "\\begin{equation}\n    \\label{eq:gk_poisson}\n    \\frac{\\delta n_e}{n_{0e}}=\\frac{T_{0e}}{T_{0i}}(\\hat{\\Gamma}_0-1)\\frac{e\\varphi}{T_{0e}},\n\\end{equation}"
+      },
+      {
+        "environment": "equation",
+        "start_line": 148,
+        "end_line": 151,
+        "labels": [
+          "eq:rec_rate"
+        ],
+        "source_TeX": "\\begin{equation}\n    \\label{eq:rec_rate}\n    \\mathcal{R}_{\\rm rec} \\sim \\sqrt{1+\\frac{T_{0i}}{T_{0e}}}\\frac{\\rho_s}{\\delta_y} \\sim  \\sqrt{1+\\frac{T_{0i}}{T_{0e}}}\\frac{\\rho_s}{R},\n\\end{equation}"
+      },
+      {
+        "environment": "equation",
+        "start_line": 159,
+        "end_line": 161,
+        "labels": [],
+        "source_TeX": "\\begin{equation}\n    \\mathcal{R}_{\\rm rec,e} \\sim {d_e}/{R};\n\\end{equation}"
+      },
+      {
+        "environment": "equation",
+        "start_line": 206,
+        "end_line": 209,
+        "labels": [
+          "eq:evolution"
+        ],
+        "source_TeX": "\\begin{equation}\n\\frac{d \\mathcal{E}}{d t} \\propto \\frac{d B_{\\perp}^2}{d t } \\sim -\\frac{B_{\\perp}^2}{\\tau_{\\rm rec}} \\propto - B_{\\perp}^5 \\propto \\mathcal{E}^{5/2}.\n\\label{eq:evolution}\n\\end{equation}"
+      },
+      {
+        "environment": "equation",
+        "start_line": 213,
+        "end_line": 216,
+        "labels": [
+          "eq:scale_subrhoi"
+        ],
+        "source_TeX": "\\begin{equation}\nk_{\\perp} \\propto \\tilde{t}^{-1 / 3}, \\quad B_\\perp \\propto \\tilde{t}^{-1 / 3}, \\quad \\mathcal{E} \\propto \\tilde{t}^{-2/3}.\n\\label{eq:scale_subrhoi}\n\\end{equation}"
+      },
+      {
+        "environment": "equation",
+        "start_line": 227,
+        "end_line": 230,
+        "labels": [
+          "eq:length"
+        ],
+        "source_TeX": "\\begin{equation}\n    l \\sim { B_z}/({k_{\\perp}B_{\\perp}}) \\propto \\tilde{t}^{2/3}.\n    \\label{eq:length}\n\\end{equation}"
+      },
+      {
+        "environment": "equation",
+        "start_line": 260,
+        "end_line": 263,
+        "labels": [
+          "eq:scale_mhd"
+        ],
+        "source_TeX": "\\begin{equation}\nk_{\\perp} \\propto \\tilde{t}^{-1 / 2}, \\quad B\\propto\\tilde{t}^{-1 / 2}, \\quad \\mathcal{E}\\propto \\tilde{t}^{-1}.\n\\label{eq:scale_mhd}\n\\end{equation}"
+      },
+      {
+        "environment": "equation",
+        "start_line": 315,
+        "end_line": 317,
+        "labels": [
+          "app:eq:ne_1"
+        ],
+        "source_TeX": "\\begin{equation}\n    \\frac{\\partial \\delta n_e / n_{0 e}}{\\partial t}+\\frac{c}{B_0}\\left\\{\\varphi, \\delta n_e / n_{0 e}\\right\\}  =\\frac{1}{B_0}\\left\\{A_{\\|}, \\frac{e}{c m_e} d_e^2 \\nabla_{\\perp}^2 A_{\\|}\\right\\}, \\label{app:eq:ne_1}\n\\end{equation}"
+      },
+      {
+        "environment": "equation",
+        "start_line": 318,
+        "end_line": 324,
+        "labels": [
+          "app:eq:Az_1"
+        ],
+        "source_TeX": "\\begin{equation}\n\\begin{aligned}\n    &\\frac{\\partial\\left(A_{\\|}- d_e^2 \\nabla_{\\perp}^2 A_{\\|}\\right)}{\\partial t}+\\frac{c}{B_0}\\left\\{\\varphi, A_{\\|}-d_e^2 \\nabla_{\\perp}^2 A_{\\|}\\right\\}  \\\\\n    =&-\\frac{c T_{0 e}}{e} \\frac{1}{B_0}\\left\\{A_{\\|}, \\frac{\\delta n_e}{n_{0 e}}\\right\\}\n\\end{aligned}\n\\label{app:eq:Az_1}\n\\end{equation}"
+      },
+      {
+        "environment": "equation",
+        "start_line": 325,
+        "end_line": 328,
+        "labels": [
+          "app:eq:poisson_1"
+        ],
+        "source_TeX": "\\begin{equation}\n        \\frac{\\delta n_e}{n_{0e}}  =\\frac{T_{0e}}{T_{0i}}(\\hat{\\Gamma}_0-1)\\frac{e\\varphi}{T_{0e}}\n    \\label{app:eq:poisson_1}.\n\\end{equation}"
+      },
+      {
+        "environment": "equation",
+        "start_line": 330,
+        "end_line": 333,
+        "labels": [
+          "app:eq:poisson_reduced"
+        ],
+        "source_TeX": "\\begin{equation}\n        \\frac{\\delta n_e}{n_{0e}} =-\\frac{e\\varphi}{T_{0i}}.\n        \\label{app:eq:poisson_reduced}\n\\end{equation}"
+      },
+      {
+        "environment": "equation",
+        "start_line": 339,
+        "end_line": 346,
+        "labels": [
+          "app:eq:ne_2"
+        ],
+        "source_TeX": "\\begin{equation}\n\\begin{aligned}\n    \\frac{\\delta n_e/n_{0e}}{\\tau} \n    &\\sim \\frac{e d_e^2}{B_0 cm_e}\\partial_x A_{z, \\rm{sheet}}\\partial_y \\nabla_{\\perp}^2 A_{z, \\rm{sheet}} \\\\\n    &\\sim \\frac{e d_e^2}{B_0 cm_e} B_{\\perp} \\frac{B_{\\perp}/\\delta_x}{R}.\n\\end{aligned}    \n\\label{app:eq:ne_2}\n\\end{equation}"
+      },
+      {
+        "environment": "equation",
+        "start_line": 349,
+        "end_line": 354,
+        "labels": [
+          "app:eq:Az_2"
+        ],
+        "source_TeX": "\\begin{equation}\n\\begin{aligned}\n    \\frac{A_{z, \\rm{sheet}}}{\\tau} &\\sim \\frac{c(T_{0e}+T_{0i})}{eB_0} \\partial_x A_{z, \\rm{sheet}} \\partial_y (\\delta n_e/n_{0e}) \\\\\n    &\\sim \\frac{c(T_{0e}+T_{0i})}{eB_0} B_{\\perp} \\frac{\\delta n_e/n_{0e}}{R}, \\label{app:eq:Az_2}\n\\end{aligned}\n\\end{equation}"
+      },
+      {
+        "environment": "equation",
+        "start_line": 358,
+        "end_line": 360,
+        "labels": [
+          "app:eq:tau"
+        ],
+        "source_TeX": "\\begin{equation}\n    \\tau \\sim \\frac{1}{\\sqrt{1+T_{0i}/T_{0e}}}\\frac{R}{\\rho_s} \\frac{d_e}{v_{A,\\perp}}, \\label{app:eq:tau}\n\\end{equation}"
+      },
+      {
+        "environment": "equation",
+        "start_line": 365,
+        "end_line": 366,
+        "labels": [],
+        "source_TeX": "\\begin{equation} \\tau_{\\rm rec} \\sim \\frac{1}{\\sqrt{1+T_{0i}/T_{0e}}}\\frac{R}{\\rho_s} \\frac{R}{v_{A,\\perp}}. \n\\end{equation}"
+      }
+    ],
+    "scope": "Exact author-TeX environment extraction; not proof verification, source layout reconstruction or final journal equation comparison."
+  }
+]

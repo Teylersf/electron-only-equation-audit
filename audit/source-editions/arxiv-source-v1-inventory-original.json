@@ -1,0 +1,32 @@
+[
+  {
+    "path": "Fig1.pdf",
+    "bytes": 271527,
+    "sha256": "b45b1240b8f8b0582c7ab96ac43d05b980ec43f6f73387b1900fcfcb982e7b77"
+  },
+  {
+    "path": "Fig2.pdf",
+    "bytes": 754615,
+    "sha256": "0bf7280a318d6722e151c93e2ec9e969e350a9079deea20819bb803809bdaf55"
+  },
+  {
+    "path": "Fig3.pdf",
+    "bytes": 215076,
+    "sha256": "05faa1baa81797f2d28567f17c9ff8ce0cf8e1186a7e20d0956f135f39e61013"
+  },
+  {
+    "path": "main.bbl",
+    "bytes": 63161,
+    "sha256": "609ce3f3557a686d3f5b43243273092d64f46b8873b31057622c08f0138f0d7f"
+  },
+  {
+    "path": "main.bib",
+    "bytes": 29293,
+    "sha256": "1292b41d41bee6a4fdee80b97900b38cebc9c7d27e31d568a8a942a06fe3182e"
+  },
+  {
+    "path": "main.tex",
+    "bytes": 29807,
+    "sha256": "ecfca1cfc82558979743f460555fea95af235edb19314cab9a3e6f41dc1919fb"
+  }
+]

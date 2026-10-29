@@ -1,0 +1,13 @@
+{
+  "checked_at_utc": "2026-10-29T22:56:31.740891+00:00",
+  "requested_url": "https://arxiv.org/src/2407.06020v1",
+  "http_status": 200,
+  "content_type": "application/gzip",
+  "final_host": "arxiv.org",
+  "downloaded_bytes": 1132377,
+  "sha256": "56351ec0d7867eb95cdc90994e265ee7fd4674fa67e05f00be4971a797646ea4",
+  "saved_as": "arxiv-v1-source.tar",
+  "valid_expected_content": true,
+  "human_challenge_detected": false,
+  "error": null
+}

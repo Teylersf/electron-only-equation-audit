@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "scope": "Exact historical preflight and independent-review records copied without source PDFs, full article text, page images, author article TeX or source archives. Referenced cache basenames identify external evidence, not missing runtime dependencies.",
+  "original_record_count": 24,
+  "files": [
+    {
+      "source_cache_relative_name": "source-editions-preflight.json",
+      "package_path": "audit/source-editions/source-editions-preflight-original.json",
+      "bytes": 12072,
+      "SHA256": "fdc0f1074432d16a33313f4a24be3d67fed3af2f4744a945d119c770087c79aa",
+      "byte_exact": true
+    },
+    {
+      "source_cache_relative_name": "source-editions-preflight-before-accepted-manuscript.json",
+      "package_path": "audit/source-editions/source-editions-preflight-before-AM-original.json",
+      "bytes": 9346,
+      "SHA256": "41179bbc90888498dc5d3c1c0843082ef01e8cf1e36add155c256b16c18ac546",
+      "byte_exact": true
+    },
+    {
+      "source_cache_relative_name": "edition-concordance.md",
+      "package_path": "audit/source-editions/edition-concordance-original.md",
+      "bytes": 9136,
+      "SHA256": "58a669ea93e0e4622477c2cff0ea5b6132b3ee4edaa9ffee4aae60c585f87623",
+      "byte_exact": true
+    },
+    {
+      "source_cache_relative_name": "edition-concordance-before-accepted-manuscript.md",
+      "package_path": "audit/source-editions/edition-concordance-before-AM-original.md",
+      "bytes": 6710,
+      "SHA256": "0b83d953aa95b410b93a75f1268dad245ebb1e8d0b5631691beb9fd51c3eda22",
+      "byte_exact": true
+    },
+    {
+      "source_cache_relative_name": "publisher-accepted-manuscript-manual-save.json",
+      "package_path": "audit/source-editions/accepted-manuscript-manual-save-original.json",
+      "bytes": 1247,
+      "SHA256": "970f942a80cc50aa10f73504d694a1df34252542341b985a0548d3f4cc805d5c",
+      "byte_exact": true
+    },
+    {
+      "source_cache_relative_name": "publisher-ui-access-observation.json",
+      "package_path": "audit/source-editions/publisher-access-observation-original.json",
+      "bytes": 1977,
+      "SHA256": "8475656aad057d3055be4e9aa00716601f6d8495ae4542c854036a704a554250",
+      "byte_exact": true
+    },
+    {
+      "source_cache_relative_name": "correction-and-deposit-check.json",
+      "package_path": "audit/source-editions/correction-and-deposit-check-original.json",
+      "bytes": 5338,
+      "SHA256": "3fab7f4a7153fd469766a69a097ddefcc9453a85d02294a33d8cdbc2e4e33672",
+      "byte_exact": true
+    },
+    {
+      "source_cache_relative_name": "crossref-primary-receipt.json",
+      "package_path": "audit/source-editions/crossref-primary-receipt-original.json",
+      "bytes": 260,
+      "SHA256": "788fddc1a673efc31eb56194e173776a9dfb36b38f238c5d8d4996a5e5ff9a66",
+      "byte_exact": true
+    },
+    {
+      "source_cache_relative_name": "crossref-10.1103-PhysRevLett.134.155201.json",
+      "package_path": "audit/source-editions/crossref-metadata-original.json",
+      "bytes": 17764,
+      "SHA256": "2aad9f5b75c16391aa0c29e789936840467d02c707ca2026d398d1d22591c110",
+      "byte_exact": true
+    },
+    {
+      "source_cache_relative_name": "arxiv-source-v1-inventory.json",
+      "package_path": "audit/source-editions/arxiv-source-v1-inventory-original.json",
+      "bytes": 842,
+      "SHA256": "fc3cef9f288708d043b892a2693f6a29f711764de20f3000c93f09f88df12787",
+      "byte_exact": true
+    },
+    {
+      "source_cache_relative_name": "arxiv-source-v2-inventory.json",
+      "package_path": "audit/source-editions/arxiv-source-v2-inventory-original.json",
+      "bytes": 3950,
+      "SHA256": "eb391a28678195acde96c31835b1b958b2952850979ae446b64f7b7e3a0221dc",
+      "byte_exact": true
+    },
+    {
+      "source_cache_relative_name": "arxiv-equation-environments.json",
+      "package_path": "audit/source-editions/arxiv-equation-environments-original.json",
+      "bytes": 10298,
+      "SHA256": "88f3dcf7b5ace33d019445db29174217e9c13233b985ce8fc0cbfc10915a8a8d",
+      "byte_exact": true
+    },
+    {
+      "source_cache_relative_name": "independent-derivation-review/independent-derivation-review.md",
+      "package_path": "audit/independent-derivation-review/independent-derivation-review-original.md",
+      "bytes": 13887,
+      "SHA256": "0a972ec3b4e9ddab3d87d6c9d7beb934cf7cae91970ac0b79664982f11bc1b24",
+      "byte_exact": true
+    },
+    {
+      "source_cache_relative_name": "independent-derivation-review/derivation-review-provenance.json",
+      "package_path": "audit/independent-derivation-review/derivation-review-provenance-original.json",
+      "bytes": 12322,
+      "SHA256": "f40595606eb3742315bb48edf549d3fb237e19d207de86eb8ecf88ddf46af3c1",
+      "byte_exact": true
+    },
+    {
+      "source_cache_relative_name": "independent-derivation-review/verify_equation_consistency.py",
+      "package_path": "audit/independent-derivation-review/verify_equation_consistency.py",
+      "bytes": 9858,
+      "SHA256": "3f39a65b7cf057b56fec8dd7ed01e3be743aa12bd37037f2550606935cd5e8af",
+      "byte_exact": true
+    },
+    {
+      "source_cache_relative_name": "independent-derivation-review/equation-consistency-checks.json",
+      "package_path": "audit/independent-derivation-review/equation-consistency-checks-original-run.json",
+      "bytes": 8904,
+      "SHA256": "732e3165a4fe926a7369b41d334fef8f85d3aa660f4c66542e9bc3564480f5c1",
+      "byte_exact": true
+    },
+    {
+      "source_cache_relative_name": "arxiv-abs.html.receipt.json",
+      "package_path": "audit/source-editions/download-receipts/arxiv-abs.html.receipt.json",
+      "bytes": 453,
+      "SHA256": "c91fc329854aced5a62bda8dd2838cb2a314b403e0b3ed7d8051f299f95f7139",
+      "byte_exact": true
+    },
+    {
+      "source_cache_relative_name": "arxiv-v1-source.tar.receipt.json",
+      "package_path": "audit/source-editions/download-receipts/arxiv-v1-source.tar.receipt.json",
+      "bytes": 454,
+      "SHA256": "eaa03fdbc509d28a459de00a8d0faaa35206fc7a579fcf4bc408bdd9d09f5b5f",
+      "byte_exact": true
+    },
+    {
+      "source_cache_relative_name": "arxiv-v1.pdf.receipt.json",
+      "package_path": "audit/source-editions/download-receipts/arxiv-v1.pdf.receipt.json",
+      "bytes": 445,
+      "SHA256": "76e50cf2c6671947054a0c6c89b3367e123bc0f315d8e6a8b24ba66bf2fe2b15",
+      "byte_exact": true
+    },
+    {
+      "source_cache_relative_name": "arxiv-v2-source.tar.receipt.json",
+      "package_path": "audit/source-editions/download-receipts/arxiv-v2-source.tar.receipt.json",
+      "bytes": 454,
+      "SHA256": "fa113c413cb1e0ec24501afd6de6465475f11483414a70cd2157f952e41b653d",
+      "byte_exact": true
+    },
+    {
+      "source_cache_relative_name": "arxiv-v2.pdf.receipt.json",
+      "package_path": "audit/source-editions/download-receipts/arxiv-v2.pdf.receipt.json",
+      "bytes": 446,
+      "SHA256": "0991d9de693aa152d40dead7b2e9cc246951196babfcc57ae8066719777ab659",
+      "byte_exact": true
+    },
+    {
+      "source_cache_relative_name": "primary-theory/primary-theory-verification.md",
+      "package_path": "audit/primary-reference-review/primary-theory-verification.md",
+      "bytes": 14235,
+      "SHA256": "96844dff1dd5374afaf8f42d0995a2b2daa17d43e7892953383534d1d78fd9cd",
+      "byte_exact": true
+    },
+    {
+      "source_cache_relative_name": "primary-theory/primary-theory-verification.json",
+      "package_path": "audit/primary-reference-review/primary-theory-verification.json",
+      "bytes": 9427,
+      "SHA256": "3f923688fa65beb439383b8dd28c359c873bee2afc9b991d358756eb1b56fd12",
+      "byte_exact": true
+    },
+    {
+      "source_cache_relative_name": "primary-theory/GX-framework-identification.json",
+      "package_path": "audit/primary-reference-review/GX-framework-identification.json",
+      "bytes": 1934,
+      "SHA256": "f96c4eee0ad98b4cfa942558fe517ff42f405732b395023dfdf7311c76c0a49e",
+      "byte_exact": true
+    }
+  ],
+  "private_path_and_session_data_scan": "pass",
+  "original_script_path_adaptation": "None required; the copied standard-library program writes only beside itself and contains no source cache or workspace locator.",
+  "primary_reference_note_scope": "Separately verified primary KREHM/ERMHD passages and bounded GX framework identification, not full original-paper or implementation reads."
+}

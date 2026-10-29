@@ -1,0 +1,13 @@
+{
+  "checked_at_utc": "2026-10-29T22:56:25.153302+00:00",
+  "requested_url": "https://arxiv.org/pdf/2407.06020v2",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_host": "arxiv.org",
+  "downloaded_bytes": 2913430,
+  "sha256": "e482988aa241494c52cc6071317fbd6f3a1c084173f045f2bfc03ba0ade26cd8",
+  "saved_as": "arxiv-v2.pdf",
+  "valid_expected_content": true,
+  "human_challenge_detected": false,
+  "error": null
+}

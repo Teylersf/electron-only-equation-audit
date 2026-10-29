@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T23:18:39.869762+00:00",
+  "scope": "Boundedprimarymetadata/abstract/citationframeworkidentification only; nofullpaper orcodeaudit.",
+  "title": "GX: a GPU-native gyrokinetic turbulence code for tokamak and stellarator design",
+  "authors": [
+    {
+      "given": "N.R.",
+      "family": "Mandell"
+    },
+    {
+      "given": "W.",
+      "family": "Dorland"
+    },
+    {
+      "given": "I.",
+      "family": "Abel"
+    },
+    {
+      "given": "R.",
+      "family": "Gaur"
+    },
+    {
+      "given": "P.",
+      "family": "Kim"
+    },
+    {
+      "given": "M.",
+      "family": "Martin"
+    },
+    {
+      "given": "T.",
+      "family": "Qian"
+    }
+  ],
+  "arxiv": "2209.06731",
+  "arxiv_versions": {
+    "v1": "2022-09-14",
+    "v5": "2024-04-29"
+  },
+  "journal": "Journal of Plasma Physics",
+  "volume": "90",
+  "issue": "4",
+  "article_number": "905900402",
+  "DOI": "10.1017/S0022377824000631",
+  "published_online": "2024-09-23",
+  "official_repository_URL": "https://bitbucket.org/gyrokinetics/gx",
+  "repository_evidence": "OfficialCambridgepublishedpaperfootnote1 viawebtool",
+  "official_publisher_URL": "https://www.cambridge.org/core/journals/journal-of-plasma-physics/article/gx-a-gpunative-gyrokinetic-turbulence-code-for-tokamak-and-stellarator-design/2C4BB81955E7E749B95B8B8141E997FA",
+  "official_documentation_URL": "https://gx.readthedocs.io/en/latest/",
+  "official_citing_page": "https://gx.readthedocs.io/en/latest/Citing.html",
+  "abstract_summary": "Nonlineargyrokinetics,GPU-native,pseudospectralincludingLaguerre\u2013Hermitevelocityrepresentation.",
+  "retrieval_record": "GX-framework-metadata-retrieval.json",
+  "target_run_commit_or_public_branch_identified": false,
+  "target_input_files_or_raw_outputs_recovered": false,
+  "branch_code_or_framework_benchmarks_claimed_as_target": false
+}

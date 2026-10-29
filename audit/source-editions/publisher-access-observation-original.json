@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "recorded_at_utc": "2026-10-29T23:00:10.198620+00:00",
+  "official_landing": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.155201",
+  "official_VOR_PDF": "https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.134.155201",
+  "publisher_accepted_manuscript_link": "https://link.aps.org/accepted/10.1103/PhysRevLett.134.155201",
+  "historical_raw_requests": {
+    "VOR": "journal-vor.pdf.receipt.json",
+    "accepted_manuscript": "publisher-accepted-manuscript.receipt.json",
+    "both_HTTP_status": 403,
+    "valid_PDF_obtained": false,
+    "retries_or_alternate_bypass_routes_used": false
+  },
+  "current_publisher_UI": {
+    "evidence_basis": "Parent agent /root ordinary Chrome report during this preflight, independently consistent with accessible official web metadata context.",
+    "human_security_check_resolved": true,
+    "article_fulltext": "Authorization Required / subscription",
+    "supplement": "Subscription Required",
+    "public_accepted_manuscript_download_link_present": true,
+    "ordinary_browser_download_result_not_yet_supplied": true
+  },
+  "limitation": "Current full-VOR limitation is subscription authorization, not an unresolved human challenge. Raw HTTP routes returned challenge403 and were not retried. Accepted-manuscript URL is openly provided by publisher but raw retrieval did not yield a PDF. No purchase, credential, paywall bypass or source-author contact.",
+  "accepted_manuscript_followup": {
+    "recorded_at_utc": "2026-10-29T23:06:46.463582+00:00",
+    "manual_Save_completed_by_user": true,
+    "public_link": "https://link.aps.org/accepted/10.1103/PhysRevLett.134.155201",
+    "accepted_copy_obtained": true,
+    "sha256": "71c9216d20334427fdc84570c72b600c82c7009721f03837787f8d5a74eadd83",
+    "receipt": "publisher-accepted-manuscript-manual-save.json",
+    "scope": "Normal publisher public accepted-manuscript route; not VOR subscription access."
+  }
+}
