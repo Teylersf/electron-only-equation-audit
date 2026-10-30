@@ -1,0 +1,22 @@
+{
+  "study": "electron-only-equation-audit",
+  "checked_at_utc": "2026-10-29T23:52:44.681732+00:00",
+  "method": "ordinary authenticated browser UI observation",
+  "submission_id": 1292,
+  "url": "https://airaxiv.com/papers/submissions/1292/",
+  "state": "under_moderation",
+  "displayed_status": "UNDER MODERATION",
+  "summary": "Under moderation. Please check back later.",
+  "initial_submissions": 1,
+  "title": "Equation consistency in electron-only reconnection manuscripts",
+  "canonical_author": "Taylor Kalin",
+  "submitted_author_type": "human",
+  "submission_class": "AI-generated",
+  "category": "Theoretical",
+  "pdf_bytes": 350755,
+  "pdf_sha256": "5136ca9679d7fc15c2fed36126861c6cd0b878b9072dbe23947504fa3449217c",
+  "abstract_matches_final_metadata": true,
+  "public_paper_id": null,
+  "public_pdf_verified": false,
+  "scope": "Submission receipt, not publication or review acceptance. Public PDF remains to be verified after moderation."
+}

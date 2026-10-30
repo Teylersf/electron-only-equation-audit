@@ -1,0 +1,542 @@
+{
+  "schema_version": 1,
+  "all_checks_passed": true,
+  "checked_at_UTC": "2026-10-30T00:00:26.261042+00:00",
+  "author": "Taylor Kalin",
+  "version": "1.0.0",
+  "repository": "https://github.com/Teylersf/electron-only-equation-audit",
+  "release_URL": "https://github.com/Teylersf/electron-only-equation-audit/releases/tag/v1.0.0",
+  "release_tag": "v1.0.0",
+  "release_commit": "459dc1824f2d16fae146be32a7caffba703e5aca",
+  "tag_archive_comment_exactly_release_commit": true,
+  "release_API_target_exactly_release_commit": true,
+  "release_is_public_non_draft_non_prerelease": true,
+  "scientific_code_commit": "83583b1524778b8bb4e5c78482ae7f4f104856cc",
+  "scientific_code_tree": "7bf82539dd5224ec9328dc94848b2a62dc6b4029",
+  "immutable_computational_members": 55,
+  "original_H_files_changed_in_R": [
+    "README.md"
+  ],
+  "all_54_science_code_data_figure_source_copy_files_unchanged": true,
+  "README_administrative_exception": {
+    "H_sha256": "d242701471af71becb5d4788203d4ad1181dd68ec814bcb8987636da143c4960",
+    "release_sha256": "ebfb9e2593e451a82e4209e618d07ea6df063be5eda3009286c59a810d221ae8",
+    "scope": "Publication links/status only; frozen H and software archive retain original README bytes."
+  },
+  "public_release_archive": {
+    "URL": "https://codeload.github.com/Teylersf/electron-only-equation-audit/zip/refs/tags/v1.0.0",
+    "bytes": 1380853,
+    "sha256": "e8d26d0b77284cee21bac5b90d4eac0e653a189bbfa6bbd374c8ea1d9cdef7d0",
+    "regular_members": 77,
+    "all_members_equal_read_only_local_Git_R_blobs": true
+  },
+  "manuscript": {
+    "path": "paper/manuscript.md",
+    "URL": "https://raw.githubusercontent.com/Teylersf/electron-only-equation-audit/459dc1824f2d16fae146be32a7caffba703e5aca/paper/manuscript.md",
+    "bytes": 20117,
+    "sha256": "370c10f8d113a1d721d177ab879696af185c4f575b01bd4ec10b84f5e1fee131"
+  },
+  "PDF": {
+    "path": "paper/main.pdf",
+    "URL": "https://github.com/Teylersf/electron-only-equation-audit/releases/download/v1.0.0/main.pdf",
+    "bytes": 350755,
+    "sha256": "5136ca9679d7fc15c2fed36126861c6cd0b878b9072dbe23947504fa3449217c",
+    "pages": 7,
+    "anonymous_download_exact": true,
+    "both_tracked_PDF_copies_exact": true,
+    "visual_review_not_repeated": "All-page final peer receipt reviewed the identical final PDF."
+  },
+  "figures": [
+    {
+      "path": "figures/energy-and-wave-controls.png",
+      "URL": "https://raw.githubusercontent.com/Teylersf/electron-only-equation-audit/83583b1524778b8bb4e5c78482ae7f4f104856cc/figures/energy-and-wave-controls.png",
+      "bytes": 132377,
+      "sha256": "b85c11a18b2bb7f9dc7489e8a1d05949d526461dc6f0fe054963129d17ef0832",
+      "equal_computational_H_and_release_R": true
+    },
+    {
+      "path": "figures/hermite-projection-controls.png",
+      "URL": "https://raw.githubusercontent.com/Teylersf/electron-only-equation-audit/83583b1524778b8bb4e5c78482ae7f4f104856cc/figures/hermite-projection-controls.png",
+      "bytes": 149791,
+      "sha256": "dd8ce0c15880b167b1f4f19a01aa48b440eae07bab819d90cd27810a2313be50",
+      "equal_computational_H_and_release_R": true
+    }
+  ],
+  "raw_source_pin_records": [
+    {
+      "path": "source-provenance.json",
+      "URL": "https://raw.githubusercontent.com/Teylersf/electron-only-equation-audit/459dc1824f2d16fae146be32a7caffba703e5aca/source-provenance.json",
+      "bytes": 10802,
+      "sha256": "8b4d366d4c1a389c3a2741c264c4fa9ed933631048df71e8091df177d1cbaf88",
+      "equal_immutable_H": true
+    },
+    {
+      "path": "SOURCE_CONCORDANCE.md",
+      "URL": "https://raw.githubusercontent.com/Teylersf/electron-only-equation-audit/459dc1824f2d16fae146be32a7caffba703e5aca/SOURCE_CONCORDANCE.md",
+      "bytes": 9531,
+      "sha256": "bbafa8dd919c4ea4944e6064e54c469c0feabd10799d380bb433a50afe5ef480",
+      "equal_immutable_H": true
+    }
+  ],
+  "all_final_peer_supporting_receipts_resolve_at_R_exactly": true,
+  "code_DOI": "10.5281/zenodo.23784871",
+  "software_receipt_sha256": "ec45df898fc542eec9c498b2625503df6987ccff5ff0d10cfdbfe095001171f0",
+  "all_page_peer_receipt_sha256": "83624e850286ed5526df8157ad9286d630698240ea7ca3f296860ea18844ca87",
+  "anonymous_HTTP_checks": [
+    {
+      "URL": "https://api.github.com/repos/Teylersf/electron-only-equation-audit/releases/tags/v1.0.0",
+      "HTTP_status": 200,
+      "bytes": 4756,
+      "sha256": "06cccc838096f08a3692300039ff3849974be36484ab92da012078625e50fad3",
+      "final_URL_or_signed_redirect_origin_only": "https://api.github.com/repos/Teylersf/electron-only-equation-audit/releases/tags/v1.0.0",
+      "checked_at_UTC": "2026-10-30T00:00:13.553233+00:00"
+    },
+    {
+      "URL": "https://codeload.github.com/Teylersf/electron-only-equation-audit/zip/refs/tags/v1.0.0",
+      "HTTP_status": 200,
+      "bytes": 1380853,
+      "sha256": "e8d26d0b77284cee21bac5b90d4eac0e653a189bbfa6bbd374c8ea1d9cdef7d0",
+      "final_URL_or_signed_redirect_origin_only": "https://codeload.github.com/Teylersf/electron-only-equation-audit/zip/refs/tags/v1.0.0",
+      "checked_at_UTC": "2026-10-30T00:00:23.560968+00:00"
+    },
+    {
+      "URL": "https://github.com/Teylersf/electron-only-equation-audit/releases/download/v1.0.0/main.pdf",
+      "HTTP_status": 200,
+      "bytes": 350755,
+      "sha256": "5136ca9679d7fc15c2fed36126861c6cd0b878b9072dbe23947504fa3449217c",
+      "final_URL_or_signed_redirect_origin_only": "https://release-assets.githubusercontent.com",
+      "checked_at_UTC": "2026-10-30T00:00:24.500715+00:00"
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/Teylersf/electron-only-equation-audit/459dc1824f2d16fae146be32a7caffba703e5aca/paper/manuscript.md",
+      "HTTP_status": 200,
+      "bytes": 20117,
+      "sha256": "370c10f8d113a1d721d177ab879696af185c4f575b01bd4ec10b84f5e1fee131",
+      "final_URL_or_signed_redirect_origin_only": "https://raw.githubusercontent.com/Teylersf/electron-only-equation-audit/459dc1824f2d16fae146be32a7caffba703e5aca/paper/manuscript.md",
+      "checked_at_UTC": "2026-10-30T00:00:24.826352+00:00"
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/Teylersf/electron-only-equation-audit/83583b1524778b8bb4e5c78482ae7f4f104856cc/figures/energy-and-wave-controls.png",
+      "HTTP_status": 200,
+      "bytes": 132377,
+      "sha256": "b85c11a18b2bb7f9dc7489e8a1d05949d526461dc6f0fe054963129d17ef0832",
+      "final_URL_or_signed_redirect_origin_only": "https://raw.githubusercontent.com/Teylersf/electron-only-equation-audit/83583b1524778b8bb4e5c78482ae7f4f104856cc/figures/energy-and-wave-controls.png",
+      "checked_at_UTC": "2026-10-30T00:00:25.275752+00:00"
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/Teylersf/electron-only-equation-audit/83583b1524778b8bb4e5c78482ae7f4f104856cc/figures/hermite-projection-controls.png",
+      "HTTP_status": 200,
+      "bytes": 149791,
+      "sha256": "dd8ce0c15880b167b1f4f19a01aa48b440eae07bab819d90cd27810a2313be50",
+      "final_URL_or_signed_redirect_origin_only": "https://raw.githubusercontent.com/Teylersf/electron-only-equation-audit/83583b1524778b8bb4e5c78482ae7f4f104856cc/figures/hermite-projection-controls.png",
+      "checked_at_UTC": "2026-10-30T00:00:25.771188+00:00"
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/Teylersf/electron-only-equation-audit/459dc1824f2d16fae146be32a7caffba703e5aca/source-provenance.json",
+      "HTTP_status": 200,
+      "bytes": 10802,
+      "sha256": "8b4d366d4c1a389c3a2741c264c4fa9ed933631048df71e8091df177d1cbaf88",
+      "final_URL_or_signed_redirect_origin_only": "https://raw.githubusercontent.com/Teylersf/electron-only-equation-audit/459dc1824f2d16fae146be32a7caffba703e5aca/source-provenance.json",
+      "checked_at_UTC": "2026-10-30T00:00:26.020550+00:00"
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/Teylersf/electron-only-equation-audit/459dc1824f2d16fae146be32a7caffba703e5aca/SOURCE_CONCORDANCE.md",
+      "HTTP_status": 200,
+      "bytes": 9531,
+      "sha256": "bbafa8dd919c4ea4944e6064e54c469c0feabd10799d380bb433a50afe5ef480",
+      "final_URL_or_signed_redirect_origin_only": "https://raw.githubusercontent.com/Teylersf/electron-only-equation-audit/459dc1824f2d16fae146be32a7caffba703e5aca/SOURCE_CONCORDANCE.md",
+      "checked_at_UTC": "2026-10-30T00:00:26.260908+00:00"
+    }
+  ],
+  "release_members": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 83,
+      "sha256": "cecaba36a97bcc5ce6f69247f95dce5f8908716a4843f2873fd17d9ac00678d0"
+    },
+    {
+      "path": "COMPUTATIONAL_METHODS.md",
+      "bytes": 8637,
+      "sha256": "d2b2555850db0be0611ee85b27a6f76402bbcc5650f9ae5d84ac16910331b2ab"
+    },
+    {
+      "path": "LICENSE-CODE",
+      "bytes": 1130,
+      "sha256": "2b55fdac5f492dc9cf93bb2b7ed76f20fec2ed91d4ef2b9f7b166f357f347cc8"
+    },
+    {
+      "path": "LICENSE-MANUSCRIPT",
+      "bytes": 696,
+      "sha256": "84d37ab80c2aeb4909cba541f40cee10dab8fec720bef6227ae57c3f1fd41e75"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3953,
+      "sha256": "ebfb9e2593e451a82e4209e618d07ea6df063be5eda3009286c59a810d221ae8"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "bytes": 2078,
+      "sha256": "2e3c9afdca4ff588f40cecf2c8c3bcc57f6918c8eaf5b66c19c3db3a6e6903ca"
+    },
+    {
+      "path": "SOURCE_CONCORDANCE.md",
+      "bytes": 9531,
+      "sha256": "bbafa8dd919c4ea4944e6064e54c469c0feabd10799d380bb433a50afe5ef480"
+    },
+    {
+      "path": "audit/independent-computational-qa.json",
+      "bytes": 4416,
+      "sha256": "4832b3bac7bb20e350b7bc7f0ef91f2bfdf9dc5323969337ea6ba72d04af0558"
+    },
+    {
+      "path": "audit/independent-computational-qa/checks.json",
+      "bytes": 6449,
+      "sha256": "47c7d92ffc0e3e5524284eb87335849cd0d1e1552af19433d2cedf87b8e91627"
+    },
+    {
+      "path": "audit/independent-computational-qa/review.md",
+      "bytes": 3805,
+      "sha256": "920f03d7f7f141c0193547f519f44c98ba3ea8e44cf6ebcea939834fb855dd63"
+    },
+    {
+      "path": "audit/independent-computational-qa/verify_outputs.py",
+      "bytes": 11026,
+      "sha256": "7d3ef3adbd8dab611cf432c815ab8bed50e27df6a29e4fed4c7f4c5209d40dda"
+    },
+    {
+      "path": "audit/independent-derivation-review/copy-and-portability.json",
+      "bytes": 2024,
+      "sha256": "a735871a747627224392ea30ce39f988dfdb7bc13184ac1068557da0f65598bc"
+    },
+    {
+      "path": "audit/independent-derivation-review/derivation-review-provenance-original.json",
+      "bytes": 12322,
+      "sha256": "f40595606eb3742315bb48edf549d3fb237e19d207de86eb8ecf88ddf46af3c1"
+    },
+    {
+      "path": "audit/independent-derivation-review/equation-consistency-checks-original-run.json",
+      "bytes": 8904,
+      "sha256": "732e3165a4fe926a7369b41d334fef8f85d3aa660f4c66542e9bc3564480f5c1"
+    },
+    {
+      "path": "audit/independent-derivation-review/equation-consistency-checks.json",
+      "bytes": 8904,
+      "sha256": "732e3165a4fe926a7369b41d334fef8f85d3aa660f4c66542e9bc3564480f5c1"
+    },
+    {
+      "path": "audit/independent-derivation-review/independent-derivation-review-original.md",
+      "bytes": 13887,
+      "sha256": "0a972ec3b4e9ddab3d87d6c9d7beb934cf7cae91970ac0b79664982f11bc1b24"
+    },
+    {
+      "path": "audit/independent-derivation-review/standalone-stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "audit/independent-derivation-review/standalone-stdout.txt",
+      "bytes": 299,
+      "sha256": "2f39f2691c1dcaa20d51198c6304172910cb561171a69c86de5d22912b59287f"
+    },
+    {
+      "path": "audit/independent-derivation-review/verify_equation_consistency.py",
+      "bytes": 9858,
+      "sha256": "3f39a65b7cf057b56fec8dd7ed01e3be743aa12bd37037f2550606935cd5e8af"
+    },
+    {
+      "path": "audit/manuscript-analytic-delta-review.json",
+      "bytes": 2199,
+      "sha256": "66fb3b86105c59aa99a09a4ebd3e5c9943362db4860a9bba2e6bf2a8e478df77"
+    },
+    {
+      "path": "audit/manuscript-analytic-delta-review.md",
+      "bytes": 2130,
+      "sha256": "07f26c8f701dcb646c3b646c98d23251a635cc6594eef8212626d6d9e6d69671"
+    },
+    {
+      "path": "audit/manuscript-review-draft.json",
+      "bytes": 4577,
+      "sha256": "7c68da8b527a79d7a2133cea6700ca8c981c670da3c4c4477d6537c54278675e"
+    },
+    {
+      "path": "audit/manuscript-review-draft.md",
+      "bytes": 3459,
+      "sha256": "47d122e8918b41834c8d0c0d75b22b3b18ca09166171188645d095fb0a61fc74"
+    },
+    {
+      "path": "audit/primary-reference-review/GX-framework-identification.json",
+      "bytes": 1934,
+      "sha256": "f96c4eee0ad98b4cfa942558fe517ff42f405732b395023dfdf7311c76c0a49e"
+    },
+    {
+      "path": "audit/primary-reference-review/primary-theory-verification.json",
+      "bytes": 9427,
+      "sha256": "3f923688fa65beb439383b8dd28c359c873bee2afc9b991d358756eb1b56fd12"
+    },
+    {
+      "path": "audit/primary-reference-review/primary-theory-verification.md",
+      "bytes": 14235,
+      "sha256": "96844dff1dd5374afaf8f42d0995a2b2daa17d43e7892953383534d1d78fd9cd"
+    },
+    {
+      "path": "audit/source-editions/accepted-manuscript-manual-save-original.json",
+      "bytes": 1247,
+      "sha256": "970f942a80cc50aa10f73504d694a1df34252542341b985a0548d3f4cc805d5c"
+    },
+    {
+      "path": "audit/source-editions/arxiv-equation-environments-original.json",
+      "bytes": 10298,
+      "sha256": "88f3dcf7b5ace33d019445db29174217e9c13233b985ce8fc0cbfc10915a8a8d"
+    },
+    {
+      "path": "audit/source-editions/arxiv-source-v1-inventory-original.json",
+      "bytes": 842,
+      "sha256": "fc3cef9f288708d043b892a2693f6a29f711764de20f3000c93f09f88df12787"
+    },
+    {
+      "path": "audit/source-editions/arxiv-source-v2-inventory-original.json",
+      "bytes": 3950,
+      "sha256": "eb391a28678195acde96c31835b1b958b2952850979ae446b64f7b7e3a0221dc"
+    },
+    {
+      "path": "audit/source-editions/correction-and-deposit-check-original.json",
+      "bytes": 5338,
+      "sha256": "3fab7f4a7153fd469766a69a097ddefcc9453a85d02294a33d8cdbc2e4e33672"
+    },
+    {
+      "path": "audit/source-editions/crossref-metadata-original.json",
+      "bytes": 17764,
+      "sha256": "2aad9f5b75c16391aa0c29e789936840467d02c707ca2026d398d1d22591c110"
+    },
+    {
+      "path": "audit/source-editions/crossref-primary-receipt-original.json",
+      "bytes": 260,
+      "sha256": "788fddc1a673efc31eb56194e173776a9dfb36b38f238c5d8d4996a5e5ff9a66"
+    },
+    {
+      "path": "audit/source-editions/download-receipts/arxiv-abs.html.receipt.json",
+      "bytes": 453,
+      "sha256": "c91fc329854aced5a62bda8dd2838cb2a314b403e0b3ed7d8051f299f95f7139"
+    },
+    {
+      "path": "audit/source-editions/download-receipts/arxiv-v1-source.tar.receipt.json",
+      "bytes": 454,
+      "sha256": "eaa03fdbc509d28a459de00a8d0faaa35206fc7a579fcf4bc408bdd9d09f5b5f"
+    },
+    {
+      "path": "audit/source-editions/download-receipts/arxiv-v1.pdf.receipt.json",
+      "bytes": 445,
+      "sha256": "76e50cf2c6671947054a0c6c89b3367e123bc0f315d8e6a8b24ba66bf2fe2b15"
+    },
+    {
+      "path": "audit/source-editions/download-receipts/arxiv-v2-source.tar.receipt.json",
+      "bytes": 454,
+      "sha256": "fa113c413cb1e0ec24501afd6de6465475f11483414a70cd2157f952e41b653d"
+    },
+    {
+      "path": "audit/source-editions/download-receipts/arxiv-v2.pdf.receipt.json",
+      "bytes": 446,
+      "sha256": "0991d9de693aa152d40dead7b2e9cc246951196babfcc57ae8066719777ab659"
+    },
+    {
+      "path": "audit/source-editions/edition-concordance-before-AM-original.md",
+      "bytes": 6710,
+      "sha256": "0b83d953aa95b410b93a75f1268dad245ebb1e8d0b5631691beb9fd51c3eda22"
+    },
+    {
+      "path": "audit/source-editions/edition-concordance-original.md",
+      "bytes": 9136,
+      "sha256": "58a669ea93e0e4622477c2cff0ea5b6132b3ee4edaa9ffee4aae60c585f87623"
+    },
+    {
+      "path": "audit/source-editions/publisher-access-observation-original.json",
+      "bytes": 1977,
+      "sha256": "8475656aad057d3055be4e9aa00716601f6d8495ae4542c854036a704a554250"
+    },
+    {
+      "path": "audit/source-editions/source-editions-preflight-before-AM-original.json",
+      "bytes": 9346,
+      "sha256": "41179bbc90888498dc5d3c1c0843082ef01e8cf1e36add155c256b16c18ac546"
+    },
+    {
+      "path": "audit/source-editions/source-editions-preflight-original.json",
+      "bytes": 12072,
+      "sha256": "fdc0f1074432d16a33313f4a24be3d67fed3af2f4744a945d119c770087c79aa"
+    },
+    {
+      "path": "audit/source-integration-verification.json",
+      "bytes": 7487,
+      "sha256": "0689ac5c3f6a494e827894ed712fed18ab208df4ec7850e0e36405cd0f63778d"
+    },
+    {
+      "path": "audit/source-record-copy-manifest-before-primary.json",
+      "bytes": 7303,
+      "sha256": "711f2c7deccff0ef65b768dc002b7abedce650c3b700e2ca6b4b602a0344e4fc"
+    },
+    {
+      "path": "audit/source-record-copy-manifest.json",
+      "bytes": 8455,
+      "sha256": "7498541e6dcf50ef8170fa4f5d417d0e0d6db74bb6e48e226bb669fe0f5fd7a1"
+    },
+    {
+      "path": "data/computational-artifact-manifest.json",
+      "bytes": 10489,
+      "sha256": "1bd491104e32200cb1825e82b93d1610600127c8cff388e784c60b181387f530"
+    },
+    {
+      "path": "data/conditional-exponents.csv",
+      "bytes": 251,
+      "sha256": "c99d51a91e7ac20afd04eb5a91d920880d66a0f0d34cef381d24402f40513603"
+    },
+    {
+      "path": "data/equation-controls.json",
+      "bytes": 71326,
+      "sha256": "4c491f30f75c9ec104b38f52d60a550b9b995051131af56d895d2989ce2cdd70"
+    },
+    {
+      "path": "data/linear-symbol-controls.csv",
+      "bytes": 1225,
+      "sha256": "97139a9f2e3ddc57b9a5eed69ea4d8936a4e6c296e2a805c24ece85bd3f82da0"
+    },
+    {
+      "path": "data/periodic-energy-controls.csv",
+      "bytes": 5535,
+      "sha256": "f95f5c4d4225b7991eced6e1a06186fd8d79c65a971e432da3ea4e6c56a19ff7"
+    },
+    {
+      "path": "data/retained-rate-controls.csv",
+      "bytes": 879,
+      "sha256": "9db6f034f0c1322dc844cc8e7625b009b5e3ea7e915b40e890b11ea144f5c142"
+    },
+    {
+      "path": "data/runtime-environments.json",
+      "bytes": 2158,
+      "sha256": "aff0728af16c413c76a31dcdad56385f5bbd03bfbc6aa81400c3f5dc4f040baa"
+    },
+    {
+      "path": "figures/energy-and-wave-controls.png",
+      "bytes": 132377,
+      "sha256": "b85c11a18b2bb7f9dc7489e8a1d05949d526461dc6f0fe054963129d17ef0832"
+    },
+    {
+      "path": "figures/hermite-projection-controls.png",
+      "bytes": 149791,
+      "sha256": "dd8ce0c15880b167b1f4f19a01aa48b440eae07bab819d90cd27810a2313be50"
+    },
+    {
+      "path": "paper/build_paper.py",
+      "bytes": 1907,
+      "sha256": "46e451218e64572d1c3344374c1e2df670d51c40b8232ea08653651ba13c3506"
+    },
+    {
+      "path": "paper/latex/body.tex",
+      "bytes": 21209,
+      "sha256": "4770fa4fe32af273e8aae9ef0d511ab36ab5e6655df3bab44116b1498faaeb50"
+    },
+    {
+      "path": "paper/latex/images/energy-and-wave-controls.png",
+      "bytes": 132377,
+      "sha256": "b85c11a18b2bb7f9dc7489e8a1d05949d526461dc6f0fe054963129d17ef0832"
+    },
+    {
+      "path": "paper/latex/images/hermite-projection-controls.png",
+      "bytes": 149791,
+      "sha256": "dd8ce0c15880b167b1f4f19a01aa48b440eae07bab819d90cd27810a2313be50"
+    },
+    {
+      "path": "paper/latex/main.pdf",
+      "bytes": 350755,
+      "sha256": "5136ca9679d7fc15c2fed36126861c6cd0b878b9072dbe23947504fa3449217c"
+    },
+    {
+      "path": "paper/latex/main.tex",
+      "bytes": 904,
+      "sha256": "99a0ab96411a12d239751865e8d694dbac0dfb53c78cd8c5a2c7b4f650aa9f9e"
+    },
+    {
+      "path": "paper/main.pdf",
+      "bytes": 350755,
+      "sha256": "5136ca9679d7fc15c2fed36126861c6cd0b878b9072dbe23947504fa3449217c"
+    },
+    {
+      "path": "paper/manuscript.md",
+      "bytes": 20117,
+      "sha256": "370c10f8d113a1d721d177ab879696af185c4f575b01bd4ec10b84f5e1fee131"
+    },
+    {
+      "path": "reproduction/run_audit.py",
+      "bytes": 21771,
+      "sha256": "c2b7d1428b49ffb1980c5a95fdaa39ded28a17a62b0caf4ec01ab47eb48d1567"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 32,
+      "sha256": "adc7fa5a4dbaa7335c32c1e7d10cffae5c96f67ba2f5f22c8453c1bc11cf8e0a"
+    },
+    {
+      "path": "source-provenance.json",
+      "bytes": 10802,
+      "sha256": "8b4d366d4c1a389c3a2741c264c4fa9ed933631048df71e8091df177d1cbaf88"
+    },
+    {
+      "path": "submissions/computational-freeze-v1.0.0.json",
+      "bytes": 11793,
+      "sha256": "eb84e298be7952a6ff8800cc17ef878d282d578a9538dd47e9fefdccef4c141f"
+    },
+    {
+      "path": "submissions/computational-publication-verification-v1.0.0.json",
+      "bytes": 11915,
+      "sha256": "a2bf2dc433ac1f6619b5c0f017c9c88b30d2f4f17f449168ff853c46505beb8d"
+    },
+    {
+      "path": "submissions/final-pages-and-citation-review.json",
+      "bytes": 8499,
+      "sha256": "83624e850286ed5526df8157ad9286d630698240ea7ca3f296860ea18844ca87"
+    },
+    {
+      "path": "submissions/manuscript.md",
+      "bytes": 19126,
+      "sha256": "a046122a4288767599422647145fa9121a1f81f3b476ee6d3e600f9ecd7712ed"
+    },
+    {
+      "path": "submissions/metadata.json",
+      "bytes": 1777,
+      "sha256": "fc9bd265eea1892beff9a31ce9224a58b523694bcd12f68b40bb1898b2306775"
+    },
+    {
+      "path": "submissions/publication-status.json",
+      "bytes": 2569,
+      "sha256": "bbab44ca130859b4551e7a122ffb1fbc18d03cac113e5e5b643707d3fd10d120"
+    },
+    {
+      "path": "submissions/publishfun-guidelines.json",
+      "bytes": 204,
+      "sha256": "e63da6a88de54e693b049a4941689990ce8bc650e078a3e6d07f69c06cc6fef8"
+    },
+    {
+      "path": "submissions/publishing-preparation.json",
+      "bytes": 1714,
+      "sha256": "11d9808509b435c9eff6b0a033e64f44c22ce4ec94c5e6ac046ae55c517cf770"
+    },
+    {
+      "path": "submissions/verify_zenodo_code.py",
+      "bytes": 16043,
+      "sha256": "48e736777d5911b9a8b456fa0d13c198f3e390bf1e83f6ea869ff18fd3eeb336"
+    },
+    {
+      "path": "submissions/zenodo-code-v1.0.0.json",
+      "bytes": 17973,
+      "sha256": "ec45df898fc542eec9c498b2625503df6987ccff5ff0d10cfdbfe095001171f0"
+    }
+  ],
+  "verification_scope": "Anonymous public manuscript release/tag/archive/PDF/raw files and exact immutable source/code bindings; no new science execution, VOR claim, human peer review or formal editorial submission. Historical prior-review records are included as QA evidence, not draft manuscripts.",
+  "credentials_or_vault_used": false,
+  "signed_asset_redirect_query_strings_excluded": true,
+  "metadata_or_editorial_mutations_in_verifier": 0
+}
