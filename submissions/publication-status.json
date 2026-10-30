@@ -1,7 +1,7 @@
 {
   "author": "Taylor Kalin",
   "version": "1.0.0",
-  "checked_at_utc": "2026-10-30T00:03:54.735924+00:00",
+  "checked_at_utc": "2026-10-30T00:08:35.606468+00:00",
   "scientific_audit": "complete_supported_edition_specific_consistency_comment",
   "scientific_code_commit": "83583b1524778b8bb4e5c78482ae7f4f104856cc",
   "scientific_code_tree": "7bf82539dd5224ec9328dc94848b2a62dc6b4029",
@@ -44,7 +44,15 @@
     "state": "not_submitted_validation_blocked",
     "paper_id": null,
     "initial_POSTs": 0,
-    "note": "No formal paper POST. Current server dry-run rejects referenced figure uploads; ordinary daily allowance is also exhausted. No validation success or editorial disposition is claimed."
+    "note": "No formal paper POST. Current server dry-run rejects referenced figure uploads; ordinary daily allowance is also exhausted. No validation success or editorial disposition is claimed.",
+    "readiness_receipt": "submissions/publishfun-readiness-observation.json",
+    "upload_binding_receipt": "submissions/publishfun-uploaded-figure-bindings.json",
+    "blockers": [
+      "ordinary daily submission allowance exhausted",
+      "official dry run reports missing upload despite fresh normal uploads and verified public pixels"
+    ],
+    "estimated_allowance_reset_utc": "2026-10-30T15:45:18.875837+00:00",
+    "next": "Fresh official allowance and successful dry-run validation required before a single initial POST. Preserve current uploads while valid; no repeat paper or blind asset upload."
   },
   "agentpub": {
     "state": "gated_no_formal_submission",

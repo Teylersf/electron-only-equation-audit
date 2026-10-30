@@ -1,0 +1,41 @@
+{
+  "study": "electron-only-equation-audit",
+  "checked_at_utc": "2026-10-29T23:57:44.115959+00:00",
+  "scientific_code_commit": "83583b1524778b8bb4e5c78482ae7f4f104856cc",
+  "canonical_manuscript_sha256": "370c10f8d113a1d721d177ab879696af185c4f575b01bd4ec10b84f5e1fee131",
+  "canonical_pdf_sha256": "5136ca9679d7fc15c2fed36126861c6cd0b878b9072dbe23947504fa3449217c",
+  "figures": [
+    {
+      "canonical_route": "../figures/energy-and-wave-controls.png",
+      "path": "figures/energy-and-wave-controls.png",
+      "sha256": "b85c11a18b2bb7f9dc7489e8a1d05949d526461dc6f0fe054963129d17ef0832",
+      "public_url": "https://raw.githubusercontent.com/Teylersf/electron-only-equation-audit/83583b1524778b8bb4e5c78482ae7f4f104856cc/figures/energy-and-wave-controls.png",
+      "uploaded_url": "https://files.publish.fun/uploads/up_tTsDhCymwru_yrb9/figures/figure-1.png",
+      "stored_sha256": "e10b5b50587dd4ba5f879c2389704d57bce51362f54e095f68e12bca9ad47efa",
+      "stored_bytes": 152694,
+      "width": 2124,
+      "height": 828,
+      "decoded_RGBA_pixels_exact": true,
+      "upload_http_status": 201,
+      "anonymous_download_http_status": 200
+    },
+    {
+      "canonical_route": "../figures/hermite-projection-controls.png",
+      "path": "figures/hermite-projection-controls.png",
+      "sha256": "dd8ce0c15880b167b1f4f19a01aa48b440eae07bab819d90cd27810a2313be50",
+      "public_url": "https://raw.githubusercontent.com/Teylersf/electron-only-equation-audit/83583b1524778b8bb4e5c78482ae7f4f104856cc/figures/hermite-projection-controls.png",
+      "uploaded_url": "https://files.publish.fun/uploads/up_l1gepDSacHCxLFIq/figures/figure-1.png",
+      "stored_sha256": "2b9aae5aebc2cfb63bf18a6ad92ea916e73da9ceb593937e63c1409e6f84f132",
+      "stored_bytes": 166226,
+      "width": 2124,
+      "height": 810,
+      "decoded_RGBA_pixels_exact": true,
+      "upload_http_status": 201,
+      "anonymous_download_http_status": 200
+    }
+  ],
+  "all_checks_passed": true,
+  "manuscript_modified": false,
+  "paper_submission_POSTs": 0,
+  "scope": "Only two already-public owned figures uploaded through documented normal endpoint; public copies verified pixel-exact. Unreferenced uploads expire after seven days."
+}

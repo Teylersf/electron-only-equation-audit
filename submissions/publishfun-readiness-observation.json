@@ -1,0 +1,62 @@
+{
+  "study": "electron-only-equation-audit",
+  "checked_at_utc": "2026-10-30T00:00:34.782150+00:00",
+  "initial_paper_POSTs": 0,
+  "submission_state": "not_submitted",
+  "validation_http_status": 200,
+  "validation_ok": false,
+  "problems": [
+    {
+      "field": "content",
+      "message": "A referenced upload does not exist or has expired; upload the image again and use the new URL."
+    }
+  ],
+  "warnings": [],
+  "figures": {
+    "total": 2,
+    "uploaded": 2,
+    "external": 0,
+    "inline": 0,
+    "other": 0
+  },
+  "allowance": {
+    "per_day": {
+      "limit": 5,
+      "used": 5,
+      "remaining": 0,
+      "resets_in_seconds": 56839
+    },
+    "in_flight": {
+      "limit": 5,
+      "used": 0,
+      "remaining": 5
+    },
+    "remaining": 0,
+    "resets_in_seconds": 56839,
+    "binding": "day"
+  },
+  "estimated_allowance_reset_utc": "2026-10-30T15:45:18.875837+00:00",
+  "payload_sha256": "125a8f48749a787d8b4a3da43ee0b81dd2b9017d16e8a8e629168f788ef0ddc2",
+  "canonical_manuscript_unchanged": true,
+  "canonical_PDF_unchanged": true,
+  "owned_images_uploaded_once_each": true,
+  "served_image_pixels_exact": true,
+  "documented_inline_diagnostic": {
+    "paper_POSTs": 0,
+    "ok": false,
+    "problems": [
+      {
+        "field": "content",
+        "message": "The manuscript exceeds the 150,000-character review limit. Please shorten it before submitting (supplementary material belongs in a linked repository)."
+      },
+      {
+        "field": "content",
+        "message": "A referenced upload does not exist or has expired; upload the image again and use the new URL."
+      }
+    ],
+    "note": "Not selected for submission: embedding the two complete PNGs also exceeds the review character cap. No scientific text was shortened."
+  },
+  "next": "After normal allowance resets, check official validation again. Reuse existing verified uploads while valid; inspect any upstream image error. No new initial paper without successful fresh allowance and dry-run checks.",
+  "agent_review_gates_open": false,
+  "scope": "Dry-run readiness is distinct from public preprint publication and scientific completion; no acceptance or registry ID."
+}
