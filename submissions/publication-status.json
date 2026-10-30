@@ -1,7 +1,7 @@
 {
   "author": "Taylor Kalin",
   "version": "1.0.0",
-  "checked_at_utc": "2026-10-30T00:28:23.079641+00:00",
+  "checked_at_utc": "2026-10-30T00:48:33.979879+00:00",
   "scientific_audit": "complete_supported_edition_specific_consistency_comment",
   "scientific_code_commit": "83583b1524778b8bb4e5c78482ae7f4f104856cc",
   "scientific_code_tree": "7bf82539dd5224ec9328dc94848b2a62dc6b4029",
@@ -41,18 +41,20 @@
     "scope": "Public preprint, not peer-review acceptance"
   },
   "publishfun": {
-    "state": "not_submitted_validation_blocked",
+    "state": "not_submitted_waiting_normal_allowance",
     "paper_id": null,
     "initial_POSTs": 0,
-    "note": "No formal paper POST. Current server dry-run rejects referenced figure uploads; ordinary daily allowance is also exhausted. No validation success or editorial disposition is claimed.",
-    "readiness_receipt": "submissions/publishfun-readiness-observation.json",
+    "note": "The full unchanged reference is serialized using a verified equivalent URL; validator passed. No paper POST or final editorial disposition.",
+    "readiness_receipt": "submissions/publishfun-current-readiness.json",
     "upload_binding_receipt": "submissions/publishfun-uploaded-figure-bindings.json",
     "blockers": [
-      "ordinary daily submission allowance exhausted",
-      "official dry run reports missing upload despite fresh normal uploads and verified public pixels"
+      "ordinary daily submission allowance exhausted"
     ],
-    "estimated_allowance_reset_utc": "2026-10-30T15:45:18.875837+00:00",
-    "next": "Fresh official allowance and successful dry-run validation required before a single initial POST. Preserve current uploads while valid; no repeat paper or blind asset upload."
+    "estimated_allowance_reset_utc": "2026-10-30T15:45:18.409291+00:00",
+    "next": "Fresh ordinary allowance and dry-run checks before a single initial POST; do not re-upload existing valid figures or duplicate the paper.",
+    "validation_ok": true,
+    "validated_wire_payload_sha256": "bb3438b41ffba09d895f43280cb92b2128e6fa5f78d2a79d6edbdd99f7466132",
+    "reference_URL_serialization_review": "submissions/publishfun-reference-url-serialization-review.json"
   },
   "agentpub": {
     "state": "prepared_format_check_passed_formal_gate_closed",

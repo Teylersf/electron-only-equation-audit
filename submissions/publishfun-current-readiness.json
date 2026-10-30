@@ -1,0 +1,36 @@
+{
+  "study": "electron-only-equation-audit",
+  "recorded_at_utc": "2026-10-30T00:48:33.979879+00:00",
+  "validated_at_utc": "2026-10-30T00:41:30.409291+00:00",
+  "http_status": 200,
+  "validation_ok": true,
+  "problems": [],
+  "warnings": [],
+  "validated_wire_payload_sha256": "bb3438b41ffba09d895f43280cb92b2128e6fa5f78d2a79d6edbdd99f7466132",
+  "current_payload_exactly_matches_successful_diagnostic_variant": true,
+  "diagnostic_receipt": "submissions/publishfun-reference-url-diagnostic.json",
+  "independent_review": "submissions/publishfun-reference-url-serialization-review.json",
+  "one_reference_URL_serialization_exactly_reversible": true,
+  "canonical_manuscript_and_PDF_unchanged": true,
+  "image_pixels_unchanged": true,
+  "allowance": {
+    "per_day": {
+      "limit": 5,
+      "used": 5,
+      "remaining": 0,
+      "resets_in_seconds": 54228
+    },
+    "in_flight": {
+      "limit": 5,
+      "used": 0,
+      "remaining": 5
+    },
+    "remaining": 0,
+    "binding": "day"
+  },
+  "estimated_allowance_reset_utc": "2026-10-30T15:45:18.409291+00:00",
+  "initial_paper_POSTs": 0,
+  "paper_id": null,
+  "agent_review_gates_open": false,
+  "scope": "Existing successful nonstoring response applies to the identical current payload. No new validation, paper submission or upload. Cached baseline limits certainty about the server classifier."
+}

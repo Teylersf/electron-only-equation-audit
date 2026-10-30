@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "checked_at_UTC": "2026-10-30T00:47:06.301306+00:00",
+  "study": "electron-only-equation-audit",
+  "status": "passed",
+  "review_type": "Independent static and pure-local serialization/preservation review; no network, vault, validation, upload or paper submission.",
+  "client_basename": "electron-only-publish.py",
+  "client_sha256": "e9a0dd277282f3287bd5fe4960666c8658c492ba60e21c5bd34d204f79fe58bb",
+  "reconstructed_prior_client_sha256": "4e6436256a2f2d78ea40c8bb2c95c1a519ae26a6d73c2cae19f38df8376eebf6",
+  "only_client_changes_from_previous_review": [
+    "specific reference serializer",
+    "one PF-only call after canonical/figure checks",
+    "docstring disclosure"
+  ],
+  "all_other_previously_reviewed_client_bytes_exact": true,
+  "diagnostic_proof": {
+    "path": "submissions/publishfun-reference-url-diagnostic.json",
+    "sha256": "d8ab43efe3b64bdb904687fcabacb9f1d1647c52865e9363f44412820b56769b"
+  },
+  "primary_resource": {
+    "original_URL": "https://scientific-publications.ukaea.uk/wp-content/uploads/Published/POPVOL18p102309.pdf",
+    "encoded_URL": "https://scientific-publications.ukaea.uk/wp-content/%75ploads/Published/POPVOL18p102309.pdf",
+    "ordinary_GETs_repeated": false,
+    "bound_prior_equivalence_pairs": 2,
+    "HTTP_status_each": 200,
+    "bytes_each": 675100,
+    "sha256": "6ca81472979b0506571dd22f435cd5a7c5f1a802b4d62b35a91717e801735735"
+  },
+  "serializer_only_in_PF_payload_after_canonical_and_figure_preservation": true,
+  "one_original_no_preexisting_encoded_decode_and_exact_reversal_guards": true,
+  "generated_entire_wire_SHA256": "bb3438b41ffba09d895f43280cb92b2128e6fa5f78d2a79d6edbdd99f7466132",
+  "entire_payload_equals_successful_diagnostic_variant2": true,
+  "reversing_only_single_URI_restores_entire_baseline_payload": true,
+  "full_science_reference_DOI_and_all_other_payload_fields_preserved": true,
+  "canonical_prepared_and_agent_files_keep_original_URI": true,
+  "protected_file_SHA256_before_equals_after": {
+    "canonical_MD": "370c10f8d113a1d721d177ab879696af185c4f575b01bd4ec10b84f5e1fee131",
+    "canonical_PDF": "5136ca9679d7fc15c2fed36126861c6cd0b878b9072dbe23947504fa3449217c",
+    "prepared_MD": "a046122a4288767599422647145fa9121a1f81f3b476ee6d3e600f9ecd7712ed",
+    "metadata": "fc9bd265eea1892beff9a31ce9224a58b523694bcd12f68b40bb1898b2306775",
+    "preparation_receipt": "11d9808509b435c9eff6b0a033e64f44c22ce4ec94c5e6ac046ae55c517cf770",
+    "final_pins": "a6512066b182997ee0aa0277814aaf3d3229dcadf3114f204daa3bbf32b5b062",
+    "uploaded_figures_proof": "202f4f1caa017d51c81a6df14bc245d2b011bff3f7758479e77ee1709332ca0f",
+    "private_client": "e9a0dd277282f3287bd5fe4960666c8658c492ba60e21c5bd34d204f79fe58bb",
+    "AgentPub_payload": "f3721435cf588fba159e53d90ef8a61824ad3f61b793baa8b2cf1fa64fb1f69f",
+    "AAES_registration": "027a036caf6b7eaeb1577d478a350e7261163ba922dac9d8f155b5e38e3e5783",
+    "agent_paper": "8e8348e562d48090042d6227e0d8df5eb05de0316f8b2c8c5121ca2695e8379b"
+  },
+  "negative_guards_rejected": [
+    "missing_original",
+    "duplicate_original",
+    "already_encoded",
+    "original_plus_encoded",
+    "wrong_bound_proof_SHA",
+    "bad_primary_SHA",
+    "non200_primary",
+    "missing_equivalence_pair",
+    "wrong_encoded_URL"
+  ],
+  "negative_test_scope": "Pure in-memory body/proof mutations only; wrong actual proof SHA checked separately. No file or external response was altered.",
+  "quota_dryrun_own_ID_unknown_duplicate_and_final_agent_guards_unchanged": true,
+  "formal_submission_gate_not_opened": true,
+  "network_calls": 0,
+  "vault_opened": false,
+  "validate_calls": 0,
+  "upload_POSTs": 0,
+  "paper_POSTs": 0,
+  "scope": "Benign Publish.fun-only serialization of one previously verified equivalent public reference URL; no policy/auth/quota bypass. The earlier failing baseline is cached; server classifier internals are not established.",
+  "material_issues": []
+}

@@ -1,0 +1,111 @@
+{
+  "study": "electron-only-equation-audit",
+  "checked_at_utc": "2026-10-30T00:41:30.409291+00:00",
+  "scope": "At most two controlled nonstoring diagnostic validates under the existing normal account; no publication, upload, policy, authentication or quota bypass.",
+  "hypothesis": "A foreign primary-reference URL containing /uploads/ is misclassified by the venue validator as a venue upload.",
+  "inference_limit": "Controlled lexical outcomes do not inspect the server implementation or prove a general classifier rule. The original failing baseline is byte-pinned but cached; no fresh unmodified baseline call is added to this two-call budget, so an intervening server change is not excluded.",
+  "baseline_wire_payload_sha256": "125a8f48749a787d8b4a3da43ee0b81dd2b9017d16e8a8e629168f788ef0ddc2",
+  "baseline_matches_prior_recorded_failing_payload": true,
+  "prior_failing_observation_sha256": "7dc2d874c8d4a074120c0343f4efc4e9fc5f45da25d7b9460f8a6c9f38ce6e4f",
+  "original_reference_URL": "https://scientific-publications.ukaea.uk/wp-content/uploads/Published/POPVOL18p102309.pdf",
+  "encoded_reference_URL": "https://scientific-publications.ukaea.uk/wp-content/%75ploads/Published/POPVOL18p102309.pdf",
+  "exactly_one_reference_URL_occurrence": true,
+  "first_variant_private_only_never_for_publication": true,
+  "second_variant_exactly_reversible": true,
+  "scientific_paragraphs_equations_references_DOIs_and_figures_unchanged_except_declared_URL_operation": true,
+  "primary_PDF_equivalence_checks": [
+    {
+      "URL": "https://scientific-publications.ukaea.uk/wp-content/uploads/Published/POPVOL18p102309.pdf",
+      "final_URL": "https://scientific-publications.ukaea.uk/wp-content/uploads/Published/POPVOL18p102309.pdf",
+      "HTTP_status": 200,
+      "bytes": 675100,
+      "sha256": "6ca81472979b0506571dd22f435cd5a7c5f1a802b4d62b35a91717e801735735",
+      "checked_at_utc": "2026-10-30T00:41:28.677566+00:00",
+      "anonymous_no_cookies_or_credentials": true
+    },
+    {
+      "URL": "https://scientific-publications.ukaea.uk/wp-content/%75ploads/Published/POPVOL18p102309.pdf",
+      "final_URL": "https://scientific-publications.ukaea.uk/wp-content/%75ploads/Published/POPVOL18p102309.pdf",
+      "HTTP_status": 200,
+      "bytes": 675100,
+      "sha256": "6ca81472979b0506571dd22f435cd5a7c5f1a802b4d62b35a91717e801735735",
+      "checked_at_utc": "2026-10-30T00:41:30.060003+00:00",
+      "anonymous_no_cookies_or_credentials": true
+    }
+  ],
+  "variant_results": [
+    {
+      "variant": "remove_only_primary_reference_PDF_URL_PRIVATE_NOT_FOR_PUBLICATION",
+      "wire_payload_sha256": "a633a80a3977208678f39cef09125a4b2f6a3347974018428b8a449cdf1b86c3",
+      "content_sha256": "e78df85437612f5f9429d3483bdc2a64d9d71604378c9f00ec5b169a8566c89d",
+      "http_status": 200,
+      "ok": true,
+      "problems": [],
+      "warnings": [],
+      "figures": {
+        "total": 2,
+        "uploaded": 2,
+        "external": 0,
+        "inline": 0,
+        "other": 0
+      },
+      "ready_to_submit": false,
+      "allowance": {
+        "per_day": {
+          "limit": 5,
+          "used": 5,
+          "remaining": 0,
+          "resets_in_seconds": 54234
+        },
+        "in_flight": {
+          "limit": 5,
+          "used": 0,
+          "remaining": 5
+        },
+        "remaining": 0,
+        "binding": "day"
+      }
+    },
+    {
+      "variant": "sole_unreserved_path_letter_serialization_with_full_reference_retained",
+      "wire_payload_sha256": "bb3438b41ffba09d895f43280cb92b2128e6fa5f78d2a79d6edbdd99f7466132",
+      "content_sha256": "624cb439400f2516ca2a1a0157ba796d1b40ee6e6dd58f873688394b4479ad58",
+      "http_status": 200,
+      "ok": true,
+      "problems": [],
+      "warnings": [],
+      "figures": {
+        "total": 2,
+        "uploaded": 2,
+        "external": 0,
+        "inline": 0,
+        "other": 0
+      },
+      "ready_to_submit": false,
+      "allowance": {
+        "per_day": {
+          "limit": 5,
+          "used": 5,
+          "remaining": 0,
+          "resets_in_seconds": 54228
+        },
+        "in_flight": {
+          "limit": 5,
+          "used": 0,
+          "remaining": 5
+        },
+        "remaining": 0,
+        "binding": "day"
+      }
+    }
+  ],
+  "outcome": "both_controlled_variants_completed",
+  "stop_reason_type": null,
+  "nonstoring_validate_attempts_started": 2,
+  "formal_paper_POSTs": 0,
+  "image_upload_POSTs": 0,
+  "new_accounts_or_alternate_credentials": false,
+  "protected_canonical_PDF_MD_client_pins_and_prepared_files_unchanged": true,
+  "initial_paper_id_created": false,
+  "diagnostic_producer_sha256": "799cce2615980ed99b21bbddbd21c398667d8f47cadb3e53245be6159037271a"
+}
