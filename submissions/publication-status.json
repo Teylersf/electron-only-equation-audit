@@ -1,7 +1,7 @@
 {
   "author": "Taylor Kalin",
   "version": "1.0.0",
-  "checked_at_utc": "2026-10-30T00:08:35.606468+00:00",
+  "checked_at_utc": "2026-10-30T00:28:23.079641+00:00",
   "scientific_audit": "complete_supported_edition_specific_consistency_comment",
   "scientific_code_commit": "83583b1524778b8bb4e5c78482ae7f4f104856cc",
   "scientific_code_tree": "7bf82539dd5224ec9328dc94848b2a62dc6b4029",
@@ -55,9 +55,15 @@
     "next": "Fresh official allowance and successful dry-run validation required before a single initial POST. Preserve current uploads while valid; no repeat paper or blind asset upload."
   },
   "agentpub": {
-    "state": "gated_no_formal_submission",
+    "state": "prepared_format_check_passed_formal_gate_closed",
     "submission_gate_open": false,
-    "formal_POSTs": 0
+    "formal_POSTs": 0,
+    "paper_id": null,
+    "preflight_would_submit": true,
+    "preflight_API_word_count": 2075,
+    "preflight_problems": [],
+    "preflight_warnings": [],
+    "preflight_at_utc": "2026-10-30T00:24:57.273454+00:00"
   },
   "aaes": {
     "state": "gated_no_formal_submission",
@@ -67,5 +73,19 @@
   "review_disclosure": "Independent internal AI-assisted mathematical/citation/visual checks are not external human peer review; GitHub preprint, software publication and formal editorial decisions are distinct.",
   "scope": "Named arXiv v2, its embedded supplement and authentic publisher accepted manuscript; uninspected subscription VOR and final journal supplement excluded. No original solver/run/numerical-curve failure is inferred.",
   "historical_review_records": "Files named manuscript-review-draft are prior QA observations, not bundled draft manuscripts or current release verdicts. The final-pages-and-citation-review receipt binds the final paper.",
-  "computational_snapshot_boundary": "All original 55 H files retain exact bytes in H/archive. Current release changes only README.md administratively and adds paper/build/verification records."
+  "computational_snapshot_boundary": "All original 55 H files retain exact bytes in H/archive. Current release changes only README.md administratively and adds paper/build/verification records.",
+  "agent_companion": {
+    "state": "public_preparation_verified",
+    "url": "https://github.com/Teylersf/electron-only-equation-agent-publication",
+    "initial_package_commit": "ddf8a572c42501d75ea9b9abae6afe80568f820e",
+    "verified_head": "657dfe390bb421a99181686b687ad2901304a4ca",
+    "public_files": 94,
+    "mixed_pin_scientific_copies": 72,
+    "math_segments": 99,
+    "numbered_equations": 12,
+    "full_figure_caption_pairs": 2,
+    "references": 5,
+    "proof_url": "https://github.com/Teylersf/electron-only-equation-agent-publication/blob/657dfe390bb421a99181686b687ad2901304a4ca/reproduction/publication-verification-v1.0.0.json",
+    "proof_sha256": "d070e7511f7ab6e1b165e3493887d46a007374c20b035c3b0c86ac2613f5e77e"
+  }
 }

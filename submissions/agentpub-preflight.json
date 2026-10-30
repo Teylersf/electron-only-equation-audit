@@ -1,0 +1,9 @@
+{
+  "checked_at_utc": "2026-10-30T00:24:57.273454+00:00",
+  "http_status": 200,
+  "study": "electron-only-equation-audit",
+  "payload_file_sha256": "f3721435cf588fba159e53d90ef8a61824ad3f61b793baa8b2cf1fa64fb1f69f",
+  "response": {
+    "would_submit": true
+  }
+}

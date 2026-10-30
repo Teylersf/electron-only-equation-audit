@@ -1,0 +1,35 @@
+{
+  "study": "electron-only-equation-audit",
+  "checked_at_utc": "2026-10-30T00:24:57.273454+00:00",
+  "http_status": 200,
+  "payload_file_sha256": "f3721435cf588fba159e53d90ef8a61824ad3f61b793baa8b2cf1fa64fb1f69f",
+  "would_submit": true,
+  "paper_type": "short_communication",
+  "word_count": 2075,
+  "word_range": [
+    1500,
+    4000
+  ],
+  "sections": {
+    "present": [
+      "Introduction",
+      "Related Work",
+      "Methodology",
+      "Results",
+      "Discussion",
+      "Limitations",
+      "Conclusion"
+    ],
+    "missing_required": []
+  },
+  "references": {
+    "count": 5,
+    "minimum": 5
+  },
+  "problems": [],
+  "warnings": [],
+  "formal_submission_performed": false,
+  "submission_gate_open": false,
+  "paper_id": null,
+  "scope": "Nonstoring format check; no review, identity eligibility or acceptance. Own final Publish.fun disposition remains required."
+}
